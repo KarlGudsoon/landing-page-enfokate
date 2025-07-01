@@ -1,0 +1,181 @@
+:root {
+--azul-electrico: #2979FF;
+--rosado-coral: #FF8AF0;
+--morado-lavanda: #B439FF;
+--crema-claro: #F9F7F0;
+--gris-grafito: #212121;
+--celeste-agua: #4BD8DD;
+--violeta-intenso: #6f08cb;
+--blanco: #FFFFFF;
+}
+
+@font-face {
+    font-family: 'Fredoka';
+    src: url('/assets/fonts/Fredoka-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Lalezar";
+    src: url("/assets/fonts/Lalezar-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Readex Pro';
+    src: url('/assets/fonts/ReadexPro-VariableFont_HEXP,wght.ttf');
+}
+
+a {
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+html {
+    background-color: hsl(218, 100%, 58%);
+    /*background-image: 
+        radial-gradient(at 47% 28%, hsl(307.69, 100%, 77%) 0, transparent 50%), 
+        radial-gradient(at 50% 65%, hsl(272, 92%, 41%) 0, transparent 20%);*/
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: var(--gris-grafito);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.2);
+}
+  
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    background-color: var(--violeta-intenso);
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.35);
+    padding: 0 1rem;
+}
+
+nav img {
+    height: 50px;
+    width: 50px;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.35);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav ul li a {
+    font: 400 16px Fredoka, sans-serif;
+    color: #F9F7F0;
+}
+
+.boton-navegacion {
+    padding:1rem 1rem ;
+    background-color: var(--rosado-coral);
+    border-radius: 2rem;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem 2rem;
+    min-height: 600px;
+    height: auto;
+}
+
+header .hero {
+    max-width: 800px;
+}
+
+header h1 {
+    font: 900 7rem Lalezar, sans-serif;
+    margin: 0;
+    color: var(--blanco);
+    height: 150px;
+    margin-bottom: 0.5rem;
+}
+
+header h1 b {
+    color: var(--rosado-coral);
+}
+
+header h2 {
+    font: 900 2rem Fredoka, sans-serif;
+    margin: 0;
+    color: var(--rosado-coral);
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font: 400 1rem Readex Pro, sans-serif;
+    color: var(--crema-claro);
+}
+
+button {
+    padding: 1rem 2rem;
+    background-color: var(--violeta-intenso);
+    color: var(--crema-claro);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 2rem;
+    font: 400 1.2rem Fredoka, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+header .sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    max-width: 800px;
+}
+
+header .sociales img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.servicios {
+    min-height: 800px;
+    background-color: var(--violeta-intenso);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicios h1 {
+    font: 900 3rem Lalezar, sans-serif;
+    text-transform: uppercase;
+    color: var(--blanco);
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+}
+
+.servicios p {
+    font: 400 1rem Readex Pro, sans-serif;
+    color: var(--crema-claro);
+    text-align: center;
+    margin-top: 1rem;
+    max-width: 800px;
+}
