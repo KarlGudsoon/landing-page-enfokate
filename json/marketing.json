@@ -1,0 +1,34 @@
+[
+    {
+      "id": "plan1",
+      "nombre": "Plan Base",
+      "precio": "$157.000",
+      "descripcion": "Para marcas que están comenzando y necesitan una presencia digital mínima, pero clara y coherente.",
+      "beneficios": [
+        "2 publicaciones semanales (post o carrusel con copy estratégico)",
+        "2 historias semanales (estáticas o interactivas)",
+        "Diseño de highlights (hasta 3 íconos personalizados)",
+        "Calendario editorial mensual con foco en objetivos comunicacionales",
+        "1 reunión mensual (planificación + seguimiento)",
+        "Informe mensual con análisis básico de rendimiento (engagement, alcance, interacciones)",
+        "Asesoría estratégica personalizada durante la reunión mensual",
+        "Soporte continuo vía WhatsApp de lunes a viernes (horario hábil)"
+
+      ],
+      "imagen": "",
+      "color": "green"
+    },
+    {
+      "id": "plan2",
+      "nombre": "Plan Pro",
+      "precio": "$19.990",
+      "descripcion": "Para negocios en crecimiento.",
+      "beneficios": [
+        "3 sitios web",
+        "Soporte prioritario",
+        "Certificado SSL + backups"
+      ],
+      "imagen": "img/plan2.jpg"
+    }
+  ]
+  

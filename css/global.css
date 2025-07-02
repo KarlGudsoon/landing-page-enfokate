@@ -297,7 +297,7 @@ header .sociales img {
     border: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(41, 120, 255, 0.671);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .carta-horizontal img {
@@ -501,6 +501,162 @@ header .sociales img {
     color: var(--crema-claro);
     text-decoration: none;
     transition: color 0.3s ease;
+}
+
+.plan-personalizado {
+    background-color: var(--violeta-intenso);
+    margin: 1rem 0;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.plan-personalizado button {
+    background-color: var(--morado-lavanda);
+}
+
+.plan-personalizado h1 {
+    font: 900 2rem Fredoka, sans-serif;
+    color: var(--blanco);
+    margin: 0;
+    line-height: 1;
+    text-align: center;
+}
+
+.contenedor-cursos {
+    height: fit-content;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    gap: 1rem;
+    max-width: 1500px;
+}
+
+.contenedor-cursos .carta-curso {
+    width: 350px;
+    min-height: 350px;
+    border-radius: 1rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    font: 400 1rem Readex Pro, sans-serif;
+    color: var(--rosado-coral);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: var(--morado-lavanda);
+    overflow: hidden;
+    outline: 2px solid transparent;
+    transition: scale 0.2s ease, box-shadow 0.2s ease, outline 0.2s ease;
+}
+
+
+
+.contenedor-cursos .carta-curso:hover {
+    scale: 1.025;
+    cursor: pointer;
+    outline: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+.contenedor-cursos .carta-curso .carta-curso-img {
+    width: 100%;
+    height: 150px;
+}
+
+.contenedor-cursos .carta-curso .carta-curso-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenedor-cursos .carta-curso .carta-curso-texto {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.contenedor-cursos .carta-curso .carta-curso-texto p {
+    text-align: start;
+    margin-top: 0.5rem;
+}
+
+.contenedor-cursos .carta-curso .carta-curso-texto span {
+    width: 100%;
+    text-align: start;
+    margin-bottom: 0.5rem;
+}
+
+.contenedor-cursos .carta-curso h1 {
+    font: 900 21px Fredoka, sans-serif;
+    color: var(--blanco);
+    margin: 0;
+    line-height: 1;
+    text-align: left;
+    justify-self: end;
+}
+
+.tiempo-curso {
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+    color: white;
+}
+
+.contenedor-detalles {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+    background-color: var(--violeta-intenso);
+    font: 400 1rem Fredoka;
+}
+
+.contenedor-detalles h1 {
+    font: 900 3rem Lalezar, sans-serif;
+    text-transform: uppercase;
+    color: var(--blanco);
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+}
+
+.contenedor-detalles p {
+    font: 400 1rem Readex Pro, sans-serif;
+    color: var(--blanco);
+    text-align: center;
+    margin-top: 1rem;
+    max-width: 800px;
+    margin-bottom: 1rem;
+}
+
+details {
+    width: 100%;
+    max-width: 800px;
+    background-color: var(--violeta-intenso);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+    color: var(--blanco);
+}
+
+.contenedor-detalles details p {
+    font: 400 1rem Fredoka, sans-serif;
+    color: var(--blanco);
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {
