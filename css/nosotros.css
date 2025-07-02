@@ -1,0 +1,36 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+article {
+    max-width: 1200px;
+}
+
+h1 {
+    letter-spacing: 0.1rem;
+    font-size:1.5rem;
+}
+
+.logo {
+    max-width: 500px;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.35);
+    position: sticky;
+}
+
+article ul {
+    list-style-image: url('/assets/icons/lets-icons--check-fill.svg');
+}
+
+article ul li {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: white;
+    font: 400 1.2rem Fredoka, sans-serif;
+}

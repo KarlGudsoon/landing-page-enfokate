@@ -24,6 +24,11 @@
     src: url('/assets/fonts/ReadexPro-VariableFont_HEXP,wght.ttf');
 }
 
+@view-transition {
+    navigation: auto;
+    duration: 0.5s;
+}
+
 a {
     text-decoration: none;
     transition: background-color 0.3s ease;
@@ -38,6 +43,18 @@ html {
     background-image: 
         radial-gradient(at 47% 28%, hsl(307.69, 100%, 77%) 0, transparent 50%), 
         radial-gradient(at 50% 65%, hsl(272, 92%, 41%) 0, transparent 20%);
+}
+
+h1 {
+    font-family: 'Lalezar', sans-serif;
+    font-weight: 900;
+    color: var(--blanco);
+}
+
+p {
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 400;
+    color: var(--blanco);
 }
 
 body {
@@ -230,6 +247,7 @@ header .sociales img {
     grid-auto-flow: column;
     overflow: hidden;
     gap: 1rem;
+    padding: 0.5rem 2rem;
 }
 
 .servicios .carta-servicios {
@@ -237,7 +255,7 @@ header .sociales img {
     min-width: 300px;
     flex: 1;
     border-radius: 1rem;
-    background-color: var(--violeta-intenso);
+    background-color: rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
 }
 
@@ -527,19 +545,6 @@ header .sociales img {
 
     .hero h1 {
         font-size: 3rem;
-    }
-
-    .servicios {
-        flex-direction: column;
-    }
-
-    .servicios .inner {
-        grid-auto-flow: row;
-    }
-
-    .carta-servicios {
-        width: 100%;
-        max-width: 400px;
     }
 
     .contenedor-cartas-horizontal {

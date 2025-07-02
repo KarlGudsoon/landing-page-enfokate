@@ -56,11 +56,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const btnNext = wrapper.querySelector(".scroll-btn.next");
 
     btnPrev.addEventListener("click", () => {
-      carousel.scrollBy({ left: -200, behavior: "smooth" });
+      carousel.scrollBy({ left: -325, behavior: "smooth" });
     });
 
     btnNext.addEventListener("click", () => {
-      carousel.scrollBy({ left: 200, behavior: "smooth" });
+      carousel.scrollBy({ left: 325, behavior: "smooth" });
     });
   });
 });
