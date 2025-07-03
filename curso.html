@@ -22,15 +22,67 @@
         </ul>
     </nav>
     <main>
+        
         <div id="contenedor-curso">
+            <div id="volver" onclick="history.back();"><img src="/assets/icons/weui--back-filled.svg"></div>
+            <span class="curso tipo-curso">Curso</span>
             <h1 id="nombre-curso">“GESTIONÁ TUS REDES COMO UNA PRO”</h1>
             <p id="descripcion-curso">Curso online en vivo, estratégico y práctico.</p>
-            <h3>Detalles del Curso:</h3>
-            <ul>
-                <li><strong>Duración:</strong> 8 semanas</li>
-                <li><strong>Modalidad:</strong> Presencial y Online</li>
-                <li><strong>Incluye:</strong> Material didáctico, acceso a grupos de práctica y asesoría personalizada</li>
+            <div class="precio-curso">Valor:<span id="precio-curso"></span></div>
+            <ul class="detalles-curso">
+                <li><img src="/assets/icons/solar--calendar-bold-duotone.svg"><strong>Tiempo:</strong><span id="tiempo-curso">2 sesiones (1 hora y media)</span></li>
+                <li><img src="/assets/icons/icon-park-twotone--time.svg"><strong>Duración total:</strong><span id="duracion-curso">3 horas</span></li>
+                <li><img src="/assets/icons/oui--online.svg"><strong>Modalidad:</strong><span id="modalidad-curso"></span></li>
+                <li><img src="/assets/icons/ic--twotone-video-call.svg"><strong>Plataforma:</strong><span id="plataforma-curso"></span></li>    
+                <li><img src="/assets/icons/ant-design--gift-twotone.svg"><strong>Incluye:</strong><span id="incluye-curso"></span></li>
             </ul>
+            
+            <h1>¿Para quién es este curso?</h1>
+            <div id="quien-curso">
+            </div>
+            <div id="resultados-curso"></div>
+            <h1>Contenido</h1>
+            <details id="contenido-curso-1">
+                <summary>SESIÓN 1: Estrategia y contenido que conecta</summary>
+                <ul>
+                    <li>Introducción a las redes sociales</li>
+                    <li>Creación de contenido atractivo</li>
+                    <li>Estrategias de engagement</li>
+                    <li>Análisis de métricas y resultados</li>
+                    <li>Herramientas de gestión de redes</li>
+                </ul>
+            </details>
+            <details id="contenido-curso-2">
+                <summary>SESIÓN 2: Estrategia y contenido que conecta</summary>
+                <ul>
+                    <li>Introducción a las redes sociales</li>
+                    <li>Creación de contenido atractivo</li>
+                    <li>Estrategias de engagement</li>
+                    <li>Análisis de métricas y resultados</li>
+                    <li>Herramientas de gestión de redes</li>
+                </ul>
+            </details>
+            <details id="contenido-curso-3">
+                <summary>SESIÓN 2: Estrategia y contenido que conecta</summary>
+                <ul>
+                    <li>Introducción a las redes sociales</li>
+                    <li>Creación de contenido atractivo</li>
+                    <li>Estrategias de engagement</li>
+                    <li>Análisis de métricas y resultados</li>
+                    <li>Herramientas de gestión de redes</li>
+                </ul>
+            </details>
+            <details id="contenido-curso-4">
+                <summary>SESIÓN 2: Estrategia y contenido que conecta</summary>
+                <ul>
+                    <li>Introducción a las redes sociales</li>
+                    <li>Creación de contenido atractivo</li>
+                    <li>Estrategias de engagement</li>
+                    <li>Análisis de métricas y resultados</li>
+                    <li>Herramientas de gestión de redes</li>
+                </ul>
+            </details>
+            
         
         </div>
         <form class="formulario" action="" method="post" id="formulario-contacto">
@@ -46,12 +98,26 @@
                 
                 <label for="mensaje">Mensaje:</label>
                 <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <label for="plan">
+                    Servicio:
+                    <select id="sesion" name="sesion" required disabled>
+                        <option value="CursoRedes">Curso Gestión de Redes</option>
+                        <option value="CursoBrandig">Curso Brandig y Diseño</option>
+                        <option value="CursoMarketing">Curso Marketing Digital</option>
+                        <option value="CursoExito">Curso Éxito Profesional</option>
+                        <option value="CursoContenido">Curso Creación de Contenido</option>
+                        <option value="CursoLiderazgo">Curso Lideazgo Consciente</option>
+                        <option value="AsesoriaEstrategica">Asesoría Estratégica Personalizada</option>
+                        <option value="AsesoriaSeguimiento">Asesoria de Seguimiento</option>
+                    </select>
+                </label>
                 
                 <button type="submit">Enviar</button>
         </form>
     </main>
   
 
-  <script src="/"></script>
+  <script src="/js/curso.js"></script>
 </body>
 </html>

@@ -1,34 +1,401 @@
 [
-    {
-      "id": "curso1",
-      "nombre": "Plan Base",
-      "precio": "$157.000",
-      "descripcion": "Para marcas que están comenzando y necesitan una presencia digital mínima, pero clara y coherente.",
-      "beneficios": [
-        "2 publicaciones semanales (post o carrusel con copy estratégico)",
-        "2 historias semanales (estáticas o interactivas)",
-        "Diseño de highlights (hasta 3 íconos personalizados)",
-        "Calendario editorial mensual con foco en objetivos comunicacionales",
-        "1 reunión mensual (planificación + seguimiento)",
-        "Informe mensual con análisis básico de rendimiento (engagement, alcance, interacciones)",
-        "Asesoría estratégica personalizada durante la reunión mensual",
-        "Soporte continuo vía WhatsApp de lunes a viernes (horario hábil)"
-
-      ],
-      "imagen": "",
-      "color": "green"
+  {
+    "id": "curso1",
+    "nombre": "GESTIONA TUS REDES COMO UNA PRO",
+    "descripcion": "Curso online en vivo, estratégico y práctico.",
+    "tipo": "Curso",
+    "tiempo": "2 sesiones (1 hora y media)",
+    "duracion": "3 horas",
+    "modalidad": "Online",
+    "plataforma": "Zoom y/o Meet",
+    "incluye": "Material didáctico y certificado",
+    "valor": "$45.000",
+    "quien": [
+      "Emprendedoras que manejan sus propias redes",
+      "Freelancers que quieren mejorar su estrategia",
+      "Dueñas de negocios que quieren captar más clientes"
+    ],
+    "contenido": [
+      {
+        "titulo": "SESIÓN 1: Estrategia y contenido que conecta",
+        "temas": [
+          "Qué estás comunicando (y qué podrías mejorar)",
+          "Cómo generar contenido alineado con tus objetivos (ventas, comunidad, visibilidad)",
+          "Tipos de publicaciones que funcionan en 2025: educar, emocionar, humanizar, vender",
+          "Cómo encontrar tu voz digital"
+        ]
+      },
+      {
+        "titulo": "SESIÓN 2: Organización práctica y planificación real",
+        "temas": [
+          "Cómo planificar contenidos según tu tiempo y energía",
+          "Herramientas simples: Canva, Notion, Trello y más",
+          "Cómo dejar de improvisar sin convertir redes en una carga",
+          "Plantilla de calendario mensual + ejemplos de grillas",
+          "Guía de tus redes sociales"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "curso2",
+    "nombre": "BRANDING Y DISEÑO PARA TU MARCA EN REDES",
+    "descripcion": "Curso online presencial para construir tu identidad visual desde cero y aplicarla en redes",
+    "tipo": "Curso",
+    "tiempo": "2 sesiones (1 hora y media)",
+    "duracion": "3 horas",
+    "modalidad": "Online",
+    "plataforma": "Zoom y/o Meet",
+    "incluye": "Material didáctico y soporte personalizado",
+    "valor": "$70.000",
+    "quien": [
+      "Personas que no se sienten representadas por su perfil o estética actual en redes",
+      "Emprendedoras que desean comunicar con coherencia, profesionalismo y estilo",
+      "Quienes quieren aprender a usar Canva para diseñar contenido alineado con su marca, sin ser diseñadoras"
+    ],
+    "contenido": [
+      {
+        "titulo": "SESIÓN 1: Identidad visual desde tu esencia",
+        "temas": [
+          "Fundamentos del branding personal",
+          "Cómo definir tu paleta de colores, tipografías y estilo",
+          "Creación de tu moodboard de marca (inspiración visual)",
+          "Cómo traducir tu energía a lo visual"
+        ]
+      },
+      {
+        "titulo": "SESIÓN 2: Diseño aplicado a redes sociales",
+        "temas": [
+          "Uso práctico de Canva (sin complicarte)",
+          "Cómo crear portadas, carruseles, stories y piezas visuales coherentes",
+          "Tips de diseño: jerarquía, equilibrio, espaciado, orden",
+          "Armado de feed de 9 a 12 publicaciones con estilo propio"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "curso3",
+    "nombre": "MARKETING DIGITAL Y REDES SOCIALES PARA PYMEs",
+    "descripcion": "Estrategias simples y efectivas para posicionar tu negocio y atraer clientes en el entorno digital",
+    "tipo": "Curso",
+    "tiempo": "4 sesiones (1 hora cada una)",
+    "duracion": "4 horas",
+    "modalidad": "Online",
+    "plataforma": "Zoom y/o Meet",
+    "incluye": "Material didáctico y certificación",
+    "valor": "$85.000",
+    "quien": [
+      "Emprendedores/as, pequeños negocios y marcas personales que quieren profesionalizar su presencia online.",
+      "Personas que manejan sus propias redes sociales y necesitan estrategia, visibilidad y herramientas.",
+      "PYMEs que desean atraer más clientes a través de redes e internet, sin depender de agencias externas."
+    ],
+    "contenido": [
+      {
+        "titulo": "SESIÓN 1: Fundamentos del Marketing Digital",
+        "temas": [
+          "Qué es el marketing digital y por qué es clave hoy",
+          "Cómo posicionarte como negocio en redes sin gastar de más",
+          "Tu cliente ideal: cómo identificarlo y hablarle en digital",
+          "Canales digitales clave para una pyme: ¿Instagram, WhatsApp, sitio web?"
+        ]
+      },
+      {
+        "titulo": "SESIÓN 2: Redes Sociales Estratégicas",
+        "temas": [
+          "Qué redes usar según tu rubro y público",
+          "Cómo crear una presencia coherente y profesional",
+          "Qué tipo de contenido genera confianza y ventas",
+          "Bio, link de contacto, catálogo y perfil de empresa"
+        ]
+      },
+      {
+        "titulo": "SESIÓN 3: Publicidad y visibilidad digital",
+        "temas": [
+          "Introducción a campañas pagadas simples (Meta Ads)",
+          "Cómo invertir sin tirar dinero: segmentación y objetivos básicos",
+          "Visibilidad orgánica vs. pagada: cuándo usar cada una",
+          "Cómo leer tus métricas para mejorar"
+        ]
+      },
+      {
+        "titulo": "SESIÓN 4: Organización y Automatización",
+        "temas": [
+          "Herramientas para programar publicaciones",
+          "Tips para ahorrar tiempo y mantener constancia",
+          "Cómo medir resultados y ajustar tu estrategia",
+          "Cierre + hoja de ruta a 30 días"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "curso4",
+    "nombre": "HABILIDADES BLANDAS PARA EL ÉXITO PROFESIONAL",
+    "descripcion": "Mejora tu forma de comunicar, resolver y liderar en el trabajo y en tu negocio",
+    "tipo": "Curso",
+    "tiempo": "3 sesiones (1 hora cada una)",
+    "duracion": "3 horas",
+    "modalidad": "Online",
+    "plataforma": "Zoom y/o Meet",
+    "incluye": "Actividades, Material didáctico y certificación",
+    "valor": "$55.000",
+    "quien": [
+      "Profesionales independientes, emprendedores o trabajadores en relación de dependencia.",
+      "Personas que quieren mejorar su forma de relacionarse, resolver conflictos o liderar equipos.",
+      "Quienes buscan destacar no solo por sus conocimientos técnicos, sino por su forma de actuar y conectar."
+    ],
+    "contenido": [
+      {
+        "titulo": "SESIÓN 1: Comunicación y asertividad",
+        "temas": [
+          "Cómo hablar claro y con seguridad",
+          "Escucha activa: la habilidad que casi nadie entrena",
+          "Cómo dar y recibir feedback sin herir ni bloquearte",
+          "Claves para conversaciones difíciles"
+        ]
+      },
+      {
+        "titulo": "SESIÓN 2: Resolución de conflictos y relaciones efectivas",
+        "temas": [
+          "Cómo manejar desacuerdos sin escalar",
+          "Inteligencia emocional aplicada al trabajo",
+          "Estrategias para colaborar en vez de competir",
+          "Límites sanos y autogestión del enojo"
+        ]
+      },
+      {
+        "titulo": "SESIÓN 3: Liderazgo personal y gestión del tiempo",
+        "temas": [
+          "Cómo liderarte a ti mismo/a para ser más efectivo",
+          "Organización básica sin rigidez: foco, intención y descanso",
+          "Toma de decisiones bajo presión",
+          "Cierre: plan personal de desarrollo en habilidades blandas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "curso5",
+    "nombre": "MARKETING Y CREACIÓN DE CONTENIDO QUE VENDE",
+    "descripcion": "Aprende a usar redes sociales para posicionarte, conectar y vender con estrategia",
+    "tipo": "Curso",
+    "tiempo": "3 sesiones (1 hora y media cada una)",
+    "duracion": "4.5 horas",
+    "modalidad": "Online",
+    "plataforma": "Zoom y/o Meet",
+    "incluye": "Actividades, Material didáctico y certificación",
+    "valor": "$65.000",
+    "quien": [
+      "Emprendedoras/es, marcas personales y pequeños negocios que publican contenido pero no logran generar ventas.",
+      "Personas que quieren dejar de improvisar y aprender a vender con claridad, conexión y estrategia.",
+      "Quienes no saben cómo estructurar su contenido ni cómo presentar su oferta de forma efectiva en redes."
+    ],
+    "contenido": [
+      {
+        "titulo": "SESIÓN 1: Fundamentos del Marketing en Redes Sociales",
+        "temas": [
+          "Qué es marketing digital (y qué no es)",
+          "Cómo convertir tu perfil en un canal de posicionamiento y venta",
+          "Tu cliente ideal: cómo identificarlo y hablarle directamente",
+          "Cómo conectar tu propuesta con una necesidad real",
+          "Ejercicio: mapa de valor + mini mensaje de marca"
+        ]
+      },
+      {
+        "titulo": "SESIÓN 2: Creación de contenido que conecta y convierte",
+        "temas": [
+          "Qué publicar para posicionarte como referente",
+          "Tipos de contenido que venden (educativo, emocional, autoridad, prueba social)",
+          "Cómo presentar tu servicio/producto sin sentirte invasiva",
+          "Reglas clave de copywriting (título, historia, llamada a la acción)",
+          "Ejercicio: plan de 9 publicaciones para tu feed + ideas de historias"
+        ],
+        "ejercicio": "Plan de 9 publicaciones para tu feed + ideas de historias"
+      },
+      {
+        "titulo": "SESIÓN 3: Estrategia de venta a través de contenido",
+        "temas": [
+          "Cómo usar reels, historias, carruseles y lives para vender",
+          "Cómo organizar tus semanas para no improvisar",
+          "Cómo hacer lanzamientos suaves y sostenibles desde redes",
+          "Automatización simple (link en bio, respuestas rápidas, flujos básicos)",
+          "Ejercicio: mini campaña de contenido para promocionar tu próximo servicio/oferta"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "curso6",
+    "nombre": "LIDERAZGO CONSCIENTE PARA NEGOCIOS REALES",
+    "descripcion": "Una sesión de transformación para tomar decisiones, ordenar tu visión y liderar tu negocio con seguridad. Una mentoría que une desarrollo personal + visión estratégica, sin fórmulas mágicas, con el objetivo de que cada persona lidere su negocio desde una versión más clara, segura y enfocada de sí misma.",
+    "tipo": "Mentoría",
+    "tiempo": "1 sesión",
+    "duracion": "1 sesión de 2 horas (120 min)",
+    "modalidad": "Online",
+    "plataforma": "Zoom y/o Meet",
+    "incluye": "Guía PDF, Soporte por WhatsApp y Material complementario",
+    "valor": "$45.000",
+    "quien": [
+      "Personas que están liderando un negocio, emprendimiento o equipo y necesitan reenfocar su energía y dirección.",
+      "Emprendedores/as que se sienten desbordados, bloqueados o en pausa, y necesitan una mirada estratégica + emocional.",
+      "Profesionales independientes que están creciendo, pero sienten falta de claridad, foco o fuerza para avanzar y sostener."
+    ],
+    "contenido": [
+      {
+        "titulo": "1. Diagnóstico de tu estilo de liderazgo actual",
+        "temas": [
+          "¿Estás liderando o solo sobreviviendo tu negocio?",
+          "Identificación de tu enfoque actual (controlador, disperso, ausente, hiperproductivo, evitativo, etc.)",
+          "Exploración de creencias limitantes sobre éxito, liderazgo, dinero y autoridad",
+          "Lectura de energía emprendedora: ¿qué está desordenado y qué necesita ser reforzado?",
+          "Herramienta: Mapa de tu liderazgo actual + círculo de enfoque vital"
+        ]
+      },
+      {
+        "titulo": "2. Reconexión con visión, propósito y poder",
+        "temas": [
+          "¿Qué tipo de líder quieres ser (y qué tipo no quieres repetir)?",
+          "Claridad sobre tus valores, estilo de comunicación y visión profesional",
+          "Revisión de decisiones pendientes y áreas clave de tu negocio que requieren atención",
+          "Reencuadre: del control a la autoridad personal, del miedo a la dirección",
+          "Herramienta: Guía de visión estratégica + frases de empoderamiento para sostenerte"
+        ]
+      },
+      {
+        "titulo": "3. Plan de liderazgo práctico a 30 días",
+        "temas": [
+          "Definición de 3 a 5 acciones concretas para reforzar tu liderazgo",
+          "Cómo priorizar sin agotarte: decisiones clave, límites y organización",
+          "Rol de tu energía personal en tu negocio (y cómo sostenerla)",
+          "Cierre con ritual de anclaje y visión de tu próxima etapa como líder",
+          "Herramienta: Ruta de acción + PDF con resumen de decisiones, enfoque y pasos concretos"
+        ]
+      },
+      {
+        "titulo": "Resultados",
+        "temas": [
+          "Reordenar tu liderazgo personal para guiar mejor tu negocio, equipo o marca",
+          "Superar bloqueos comunes como el síndrome del impostor, la sobrecarga o la dispersión",
+          "Activar una forma de liderar alineada a tus valores, pero con estrategia y estructura",
+          "Salir con decisiones tomadas y un plan claro a corto plazo"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "asesoria1",
+    "nombre": "ASESORÍA ESTRATÉGICA PERSONALIZADA",
+    "descripcion": "Una mirada experta y aterrizada para darle dirección real a tu marca",
+    "tipo": "Asesoría",
+    "tiempo": "2 sesiones",
+    "duracion": "Diagnóstico (45 min), Asesoría estratégica (60 min)",
+    "modalidad": "Online",
+    "plataforma": "Zoom y/o Meet",
+    "incluye": "Entrega de PDF con plan personalizado y soporte por WhatsApp",
+    "valor": "$65.000",
+    "resultados": {
+      "titulo": "¿Qué puedes esperar?",
+      "temas": [
+        "Una visión externa, honesta y profesional sobre tu marca",
+        "Ideas claras para ordenar, priorizar y avanzar con intención",
+        "Acciones prácticas que puedes aplicar de inmediato",
+        "Más claridad, más seguridad, más foco"
+      ]
     },
-    {
-      "id": "plan2",
-      "nombre": "Plan Pro",
-      "precio": "$19.990",
-      "descripcion": "Para negocios en crecimiento.",
-      "beneficios": [
-        "3 sitios web",
-        "Soporte prioritario",
-        "Certificado SSL + backups"
-      ],
-      "imagen": "img/plan2.jpg"
-    }
-  ]
-  
+    "quien": [
+      "Estás en una etapa de confusión, cambio o expansión.",
+      "Necesitas tomar decisiones, ordenar prioridades o redefinir tu enfoque.",
+      "Sientes que tu marca no refleja todo lo que eres.",
+      "Quieres avanzar con estrategia y no desde la improvisación",
+      "Buscas un acompañamiento claro, directo y profesional"
+    ],
+    "contenido": [
+      {
+        "titulo": "1. Reunión de diagnóstico previa (45 min)",
+        "temas": [
+          "Antes de entrar a fondo, nos reunimos para que me cuentes tu historia, situación actual, objetivos, frustraciones y dudas. Así aprovecho al máximo la sesión estratégica y me adapto 100% a tu realidad."
+        ]
+      },
+      {
+        "titulo": "2. Sesión estratégica personalizada (60 min)",
+        "temas": [
+          "Posicionamiento y diferenciación real",
+          "Propuesta de valor y público objetivo",
+          "Conexión con tu comunidad",
+          "Diseño de contenido estratégico",
+          "Organización de tus ideas y servicios",
+          "Estrategias para priorizar y tomar acción sin agotarte"
+        ]
+      },
+      {
+        "titulo": "3. Plan de acción personalizado en PDF",
+        "temas": [
+          "Diagnóstico claro del estado de tu marca",
+          "Puntos críticos y oportunidades detectadas",
+          "Plan de acción con pasos concretos, aplicables y adaptados a tu momento actual"
+        ]
+      }
+    ]
+  }, 
+  {
+    "id": "asesoria2",
+    "nombre": "SESIÓN DE SEGUIMIENTO ESTRATÉGICO",
+    "descripcion": "Un acompañamiento personalizado para revisar, ajustar y seguir creciendo con intención. Una sesión de 1 hora online, donde nos enfocaremos en revisar tus avances, trabajar nuevas ideas y resolver lo que haya surgido desde tu última asesoría.",
+    "tipo": "Asesoría",
+    "tiempo": "1 sesión",
+    "duracion": "1 hora",
+    "modalidad": "Online",
+    "plataforma": "Zoom y/o Meet",
+    "incluye": "Mini plan de acción (PDF) y soporte por WhatsApp",
+    "valor": "$45.000",
+    "resultados": {
+      "titulo": "¿Qué puedes esperar?",
+      "temas": [
+        "Una visión externa, honesta y profesional sobre tu marca",
+        "Ideas claras para ordenar, priorizar y avanzar con intención",
+        "Acciones prácticas que puedes aplicar de inmediato",
+        "Más claridad, más seguridad, más foco"
+      ]
+    },
+    "quien": [
+      "Esta sesión fue pensada exclusivamente para quienes ya tomaron una asesoría o programa 1:1 conmigo.",
+      "La idea es que no quedes sola/o en el camino, y puedas seguir avanzando con apoyo real, mirada estratégica y decisiones más claras."
+    ],
+    "contenido": [
+      {
+        "titulo": "1. Revisión de tu progreso",
+        "temas": [
+          "¿Qué aplicaste desde la última vez?",
+          "¿Qué funcionó, qué no, y por qué?",
+          "¿Qué aprendizajes te dejaron las acciones que tomaste?"
+        ]
+      },
+      {
+        "titulo": "2. Nuevas necesidades o desafíos",
+        "temas": [
+          "¿Qué te está costando hoy?",
+          "¿Surgieron nuevas dudas, bloqueos o decisiones pendientes?",
+          "¿Qué te gustaría reforzar o cambiar?"
+        ]
+      },
+      {
+        "titulo": "3. Ajuste de estrategia y contenido",
+        "temas": [
+          "Revisamos juntas/os tu comunicación actual en redes (contenido, tono, formato).",
+          "Evaluamos si tu mensaje, propuesta y presencia están alineadas con tu meta.",
+          "Ajustamos lo necesario para que sigás creciendo con foco."
+        ]
+      },
+      {
+        "titulo": "4. Ajuste de estrategia y contenido",
+        "temas": [
+          "¿Tienes algo nuevo en mente y no sabes por dónde partir?",
+          "Te ayudo a bajar esa idea a tierra, priorizar y tomar dirección."
+        ]
+      }
+    ]
+  }   
+]
+
+

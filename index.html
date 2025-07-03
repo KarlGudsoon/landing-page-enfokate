@@ -127,13 +127,13 @@
             </div>
         </section>
         <section class="contenedor-planes" id="planes">
-            <h1>NUESTROS PLANES</h1>
+            <h1>NUESTROS PLANES DE MARKETING</h1>
             <p>Planes pensados para quienes quieren profesionalizar su comunicación sin complicarse. Ya sea que
                 estés comenzando o que necesites escalar tu marca, tenemos un plan para ti. Nuestros paquetes
                 mensuales combinan estrategia, contenido, diseño y acompañamiento.</p>
             <div class="contenedor-botones-plan">
                 <button class="boton-plan" data-contenedor="marketing">Planes Servicios de Marketing</button>
-                <button class="boton-plan">Planes de Asesorías</button>
+                <button class="boton-plan" data-contenedor="asesorias">Planes de Asesorías</button>
             </div>
             <div class="contenedor-cartas-planes active" id="marketing">
                 <div class="cartas-plan" style="--backgroundColor: green;">
@@ -148,7 +148,7 @@
                         <li><img src="/assets/icons/lets-icons--check-fill.svg">1 reunión mensual (planificación + seguimiento)</li>
                         <li><img src="/assets/icons/lets-icons--check-fill.svg">Soporte continuo vía WhatsApp de lunes a viernes (horario hábil)</li>
                     </ul>
-                    <button><a href="/detalle.html?id=plan1&plan=Plan%20Base">Ver más</a></button>
+                    <a href="/detalle.html?id=plan1&plan=Plan%20Base">Ver más</a>
                 </div>
                 <div class="cartas-plan" style="--backgroundColor: var(--azul-electrico);">
                     <span>Mensual</span>
@@ -162,7 +162,7 @@
                         <li><img src="/assets/icons/lets-icons--check-fill.svg">Branding base: sugerencia de paleta de colores + tipografías</li>
                         <li><img src="/assets/icons/lets-icons--check-fill.svg">Informe mensual con datos clave y acciones sugeridas</li>
                     </ul>
-                    <button>Contactar</button>
+                    <a href="/detalle.html?id=plan2&plan=Plan%20Activo">Ver más</a>
                 </div>
                 <div class="cartas-plan" style="--backgroundColor: rgb(238, 205, 18);">
                     <span>Mensual</span>
@@ -177,7 +177,7 @@
                         <li><img src="/assets/icons/lets-icons--check-fill.svg">1 sesión audiovisual mensual</li>
                         <li><img src="/assets/icons/lets-icons--check-fill.svg">Branding completo (logo, paleta de colores, tipografía definida)</li>
                     </ul>
-                    <button>Contactar</button>
+                    <a href="/detalle.html?id=plan3&plan=Plan%20Expansión">Ver más</a>
                 </div>
                 <div class="cartas-plan" style="--backgroundColor: rgb(238, 88, 18);">
                     <span>Mensual</span>
@@ -192,7 +192,7 @@
                         <li><img src="/assets/icons/lets-icons--check-fill.svg">3 reels mensuales (grabados y editados con enfoque narrativo; se incluye
                             subtitulación y portada animada)</li>
                     </ul>
-                    <button>Contactar</button>
+                    <a href="/detalle.html?id=plan4&plan=Plan%20Visibilidad">Ver más</a>
                 </div>
                 <div class="cartas-plan" style="--backgroundColor: rgb(174, 43, 235);">
                     <span>Mensual</span>
@@ -206,7 +206,32 @@
                             comentarios clave)</li>
                         <li><img src="/assets/icons/lets-icons--check-fill.svg">3 reuniones mensuales (planificación y seguimiento)</li>
                     </ul>
-                    <button>Contactar</button>
+                    <a href="/detalle.html?id=plan5&plan=Plan%20Total">Ver más</a>
+                </div>
+            </div>
+            <div class="contenedor-cartas-planes" id="asesorias">
+                <div class="cartas-plan" style="--backgroundColor: green; justify-content: center;">
+                    <span>Único</span>
+                    <h1>ASESORÍA ESTRATÉGICA PERSONALIZADA</h1>
+                    <span>$65.000</span>
+                    <p>Una mirada experta y aterrizada para darle dirección real a tu marca</p>
+                    <ul>
+                        <li><img src="/assets/icons/lets-icons--check-fill.svg">Una sesión intensiva donde vamos a ponerle foco, intención y dirección a tu marca.</li>
+                        <li><img src="/assets/icons/lets-icons--check-fill.svg">Te ayudaré a salir del ruido mental, a mirar tu negocio con claridad y a descubrir qué necesita tu
+                            marca hoy para avanzar con estrategia, coherencia y sentido.</li>
+                    </ul>
+                    <a href="/curso.html?id=asesoria1&sesion=AsesoriaEstrategica">Ver más</a>
+                </div>
+                <div class="cartas-plan" style="--backgroundColor: var(--azul-electrico);">
+                    <span>Único</span>
+                    <h1>SESIÓN DE SEGUIMIENTO ESTRATÉGICO</h1>
+                    <span>$45.000</span>
+                    <p>Un acompañamiento personalizado para revisar, ajustar y seguir creciendo con intención</p>
+                    <ul>
+                        <li><img src="/assets/icons/lets-icons--check-fill.svg">Esta sesión fue pensada exclusivamente para quienes ya tomaron una asesoría o programa 1:1 conmigo.</li>
+                        <li><img src="/assets/icons/lets-icons--check-fill.svg">La idea es que no quedes sola/o en el camino, y puedas seguir avanzando con apoyo real, mirada estratégica y decisiones más claras.</li>
+                    </ul>
+                    <a href="/curso.html?id=asesoria2&sesion=AsesoriaSeguimiento">Ver más</a>
                 </div>
             </div>
 
@@ -223,7 +248,7 @@
                 Ofrecemos servicios creativos y estratégicos que se adaptan a las necesidades de tu marca, negocio, empresa, proyecto o evento:
             </p>
             <div class="contenedor-cursos">
-                <a href="/curso.html?id=curso1" class="carta-curso">
+                <a href="/curso.html?id=curso1&sesion=CursoRedes" class="carta-curso">
                     <div class="carta-curso-img"><img src="/assets/img/adult-beautiful-caucasian-914931-768x432.jpg"></div>
                     <div class="carta-curso-texto">
                         <span>Curso</span>
@@ -235,7 +260,7 @@
                         <span class="tiempo-curso"><img src="/assets/icons/mingcute--time-line.svg">6 horas</span>
                     </div>
                 </a>
-                <a href="" class="carta-curso">
+                <a href="/curso.html?id=curso2&sesion=CursoBrandig" class="carta-curso">
                     <div class="carta-curso-img"><img src="/assets/img/adult-beautiful-caucasian-914931-768x432.jpg"></div>
                     <div class="carta-curso-texto">
                         <span>Curso</span>
@@ -246,7 +271,7 @@
                         <span class="tiempo-curso"><img src="/assets/icons/mingcute--time-line.svg">6 horas</span>
                     </div>
                 </a>
-                <a href="" class="carta-curso">
+                <a href="/curso.html?id=curso3&sesion=CursoMarketing" class="carta-curso">
                     <div class="carta-curso-img"><img src="/assets/img/adult-beautiful-caucasian-914931-768x432.jpg"></div>
                     <div class="carta-curso-texto">
                         <span>Curso</span>
@@ -257,7 +282,7 @@
                         <span class="tiempo-curso"><img src="/assets/icons/mingcute--time-line.svg">6 horas</span>
                     </div>
                 </a>
-                <a href="" class="carta-curso">
+                <a href="/curso.html?id=curso4&sesion=CursoExito" class="carta-curso">
                     <div class="carta-curso-img"><img src="/assets/img/adult-beautiful-caucasian-914931-768x432.jpg"></div>
                     <div class="carta-curso-texto">
                         <span>Curso</span>
@@ -268,7 +293,7 @@
                         <span class="tiempo-curso"><img src="/assets/icons/mingcute--time-line.svg">6 horas</span>
                     </div>
                 </a>
-                <a href="" class="carta-curso">
+                <a href="/curso.html?id=curso5&sesion=CursoContenido" class="carta-curso">
                     <div class="carta-curso-img"><img src="/assets/img/adult-beautiful-caucasian-914931-768x432.jpg"></div>
                     <div class="carta-curso-texto">
                         <span>Curso</span>
@@ -279,7 +304,7 @@
                         <span class="tiempo-curso"><img src="/assets/icons/mingcute--time-line.svg">6 horas</span>
                     </div>
                 </a>
-                <a href="" class="carta-curso">
+                <a href="/curso.html?id=curso6&sesion=CursoLiderazgo" class="carta-curso">
                     <div class="carta-curso-img"><img src="/assets/img/adult-beautiful-caucasian-914931-768x432.jpg"></div>
                     <div class="carta-curso-texto">
                         <span>Mentoria</span>

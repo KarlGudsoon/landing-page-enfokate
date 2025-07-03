@@ -8,39 +8,81 @@ main {
     display: flex;
     flex: 1;
     height: 100%;
-    justify-content: center;
     gap: 1rem;
     flex-wrap: wrap;
+    justify-content: space-between;
     padding: 1rem;
+    background: rgba(112, 8, 203, 0.5);
+    margin : 1rem 2rem;
+    padding: 2rem;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
 }
 
 #contenedor-curso {
     padding: 2rem;
-    background: rgba(112, 8, 203, 0.8);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
-    margin-bottom: 1rem;
-    border-radius: 2rem;
     position: relative;
     overflow: hidden;
     flex: 1;
+    min-width: 300px;
+    max-width: 1000px;
 }
 
+.detalles-curso {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.detalles-curso li {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    
+    text-align: center;
+}
+
+.detalles-curso li img {
+    width: 40px;
+    height: 40px;
+}
+
+.precio-curso {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--violeta-intenso);
+    padding: 1rem;
+    width: fit-content;
+    gap: 0.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 1rem;
+    font: 400 1rem Fredoka, sans-serif;
+    color: var(--blanco);
+}
+
+
 #contenedor-curso h1  {
-    font: 400 2.5rem Lalezar, sans-serif;
+    font: 600 2rem Fredoka, sans-serif;
     color: var(--blanco);
     margin: 0;
+    text-transform: uppercase;
+}
 
+#contenedor-curso .curso {
+    color: var(--rosado-coral);
+    text-decoration: none;
+    font: 600 1.2rem Fredoka, sans-serif;
+    margin-bottom: 1rem;
 }
 
 #contenedor-curso span {
     font: 400 1rem Fredoka, sans-serif;
     color: var(--blanco);
-    text-align: start;
-    width: 100%;
-    text-decoration: underline;
 }
 
 #contenedor-curso::before {
@@ -74,7 +116,13 @@ main ul li {
     gap: 0.5rem;
 }
 
-main ul li::before {
+#quien-curso ul {
+    display: flex;
+    flex-direction: column;
+    list-style: url("/assets/icons/lets-icons--check-fill.svg");
+}
+
+#quien-curso ul li::before {
     content: url('/assets/icons/lets-icons--check-fill.svg');
     width: fit-content;
     height: fit-content;
@@ -93,14 +141,19 @@ main ul li::before {
     border-radius: 2rem;
     margin-bottom: 1rem;
     width: 500px;
+    height: fit-content;
     font: 400 1rem Fredoka, sans-serif;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 10rem;
+    overflow: hidden;
 }
 
 input {
     padding: 0.5rem;
     border-radius: 0.5rem;
     border: none;
+    margin-top: 0.5rem;
     margin-bottom: 1rem;
     background-color: rgb(0, 0, 0, 0.2);
     color: var(--blanco);
@@ -123,6 +176,7 @@ textarea {
     background-color: rgb(0, 0, 0, 0.2);
     color: var(--blanco);
     font: 400 1rem Fredoka, sans-serif;
+    margin-top: 0.5rem;
     border: 2px solid transparent;
     transition: border 0.3s ease, box-shadow 0.3s ease;
 }
@@ -147,13 +201,69 @@ select {
 
 button {
     background-color: var(--rosado-coral);
-    box-shadow: 0 0 1rem var(--rosado-coral);
+    transition: 0.2s ease;
 }
 
 button:hover {
     scale: 1.02;
+    box-shadow: 0 0 1rem var(--rosado-coral);
 }
 
 button:active {
     scale: 1;
+}
+
+details {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #580a9e;
+}
+
+details summary {
+    cursor: pointer;
+    font: 600 1.2rem Fredoka, sans-serif;
+    color: var(--blanco);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-color: var(--violeta-intenso);
+}
+
+details ul {
+    padding: 1rem;
+    padding-top: 1rem;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+details ul li::before {
+    content: url('/assets/icons/lets-icons--check-fill.svg');
+    width: fit-content;
+    height: fit-content;
+    display: inline;
+    position: relative;
+    margin-left: 0.5rem;
+}
+
+#resultados-curso ul li::before {
+    content: url('/assets/icons/lets-icons--check-fill.svg');
+    width: fit-content;
+    height: fit-content;
+    display: inline;
+    position: relative;
+    margin-left: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    main {
+        margin: 0.5rem 1rem;
+        padding:1rem;
+    }
+    
+    #contenedor-curso {
+        padding: 1rem;
+    }
 }

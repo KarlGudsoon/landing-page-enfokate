@@ -393,6 +393,14 @@ header .sociales img {
     justify-content: space-between;
     position: relative;
     overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, outline 0.3s ease;
+    outline: 2px solid transparent;
+}
+
+.cartas-plan:hover {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+    outline: 2px solid rgba(255, 255, 255, 0.5);
 }
 
 .cartas-plan::before {
@@ -429,10 +437,14 @@ header .sociales img {
     text-align: center;
 }
 
+.cartas-plan span:nth-child(1) {
+    background-color: var(--morado-lavanda);
+}
+
 .cartas-plan span {
     font: 400 1rem Fredoka, sans-serif;
     color: var(--blanco);
-    background-color: #B439FF;
+    background-color: rgba(0, 0, 0, 0.2);
     padding: 0.2rem 1rem;
     border-radius: 2rem;
     width: fit-content;
@@ -449,17 +461,22 @@ header .sociales img {
 }
 
 
-.cartas-plan button {
+.cartas-plan a {
     width: fit-content;
     height: fit-content;
     font: 400 1rem Readex Pro, sans-serif;
     border-radius: 2rem;
-    padding: 0.5rem 1.5rem;
     background-color: var(--morado-lavanda);
     color: var(--crema-claro);
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
     border: none;
     cursor: pointer;
+    padding: 0.5rem 1rem;
+    position: relative;
+}
+
+.cartas-plan a:hover {
+    background-color: var(--rosado-coral);
 }
 
 .cartas-plan ul {
@@ -506,7 +523,7 @@ header .sociales img {
 .plan-personalizado {
     background-color: var(--violeta-intenso);
     margin: 1rem 0;
-    padding: 2rem;
+    padding: 1rem 2rem;
     border-radius: 1rem;
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
     display: flex;
@@ -535,7 +552,7 @@ header .sociales img {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding-top: 4rem;
+    padding-top: 2rem;
     gap: 1rem;
     max-width: 1500px;
 }
@@ -657,6 +674,23 @@ details {
     font: 400 1rem Fredoka, sans-serif;
     color: var(--blanco);
     cursor: pointer;
+}
+
+#volver {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 1rem;
+    transition: 0.2s ease;
+}
+
+#volver:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#volver img {
+    width: 100%;
+    height: 100%;
 }
 
 @media (max-width: 768px) {

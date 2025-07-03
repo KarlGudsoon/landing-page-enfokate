@@ -20,15 +20,96 @@
     },
     {
       "id": "plan2",
-      "nombre": "Plan Pro",
-      "precio": "$19.990",
-      "descripcion": "Para negocios en crecimiento.",
+      "nombre": "Plan Activo",
+      "precio": "$279.000",
+      "descripcion": "Para marcas que ya tienen movimiento y quieren aumentar su frecuencia y profesionalizar su imagen.",
       "beneficios": [
-        "3 sitios web",
-        "Soporte prioritario",
-        "Certificado SSL + backups"
+        "3 publicaciones semanales (post, carrusel o contenido educativo/inspiracional)",
+        "4 historias semanales (interactivas, detrás de escena, anuncios, testimonios)",
+        "1 reel mensual (editado con subtítulos y portada personalizada; material entregado por el cliente)",
+        "Highlights diseñados desde cero o actualizados (hasta 4 íconos)",
+        "Branding base: sugerencia de paleta de colores + tipografías",
+        "Estudio de mercado básico (competencia directa + análisis de tono y posicionamiento)",
+        "Calendario editorial estratégico mensual",
+        "1 reunión mensual (revisión + enfoque estratégico)",
+        "Informe mensual con datos clave y acciones sugeridas",
+        "Asesoría personalizada continua",
+        "Soporte WhatsApp activo (respuestas dentro del mismo día)"
       ],
-      "imagen": "img/plan2.jpg"
+      "imagen": "",
+      "color": "blue"
+    },
+    {
+      "id": "plan3",
+      "nombre": "Plan Expansión",
+      "precio": "$479.000",
+      "descripcion": "Para marcas en crecimiento que buscan autoridad visual, contenido potente y estrategia continua.",
+      "beneficios": [
+        "4 publicaciones semanales (estratégicas, educativas, promocionales y de posicionamiento)",
+        "6 historias semanales (interacción, comunidad, oferta, BTS, storytelling)",
+        "2 reels mensuales (grabados con celular o material profesional + edición, subtítulos y portada)",
+        "Highlights diseñados con rediseño visual completo según marca",
+        "Branding completo (logo, paleta de colores, tipografía definida)",
+        "Estudio de mercado competitivo (benchmark + análisis de presencia de competidores)",
+        "1 sesión audiovisual mensual (fotos o videos; en formato remoto o presencial, según zona)",
+        "Meta Ads: creación y gestión de 1 campaña mensual (tráfico, alcance o mensajes; pauta aparte desde $100.000)",
+        "Gestión parcial de redes (subida de contenido y respuestas básicas en DM o comentarios)",
+        "2 reuniones mensuales (1 estratégica + 1 de seguimiento)",
+        "Informe mensual detallado (KPIs, contenido con mejor rendimiento y ajustes sugeridos)",
+        "Soporte WhatsApp activo + canal prioritario para dudas urgentes"
+      ],
+      "imagen": "",
+      "color": "purple"
+    },
+    {
+      "id": "plan4",
+      "nombre": "Plan Visibilidad Pro",
+      "precio": "$699.990",
+      "descripcion": "Para marcas con estructura que buscan visibilidad, posicionamiento y gestión profesional continua.",
+      "beneficios": [
+        "5 publicaciones semanales (mixtas: informativas, testimoniales, reels resumen, cápsulas de valor)",
+        "7 historias semanales (segmentadas según estrategia, con interacciones y comunidad)",
+        "3 reels mensuales (grabados y editados con enfoque narrativo; se incluye subtitulación y portada animada)",
+        "Highlights alineados a branding general (diseño exclusivo)",
+        "Branding completo + propuesta visual de contenido integrada (feed + stories)",
+        "Estudio de mercado actualizado con revisión mensual",
+        "Gestión completa de redes sociales (contenido, atención y monitoreo básico de comunidad)",
+        "2 sesiones audiovisuales mensuales (presenciales o remotas según zona; producción incluida)",
+        "Meta Ads: campaña mensual (creación, configuración, seguimiento; pauta aparte desde $100.000)",
+        "2 reuniones mensuales (revisión de estrategia + planificación de contenido/campañas)",
+        "Informe mensual completo (análisis visual, comportamiento de comunidad, métricas de campaña)",
+        "Soporte extendido por WhatsApp (respuestas fuera de horario hábil en caso de contingencias)",
+        "Asesoría estratégica continua (revisión de decisiones, branding, enfoque de negocio)"
+      ],
+      "imagen": "",
+      "color": "red"
+    },
+    {
+      "id": "plan5",
+      "nombre": "Plan Escala Total",
+      "precio": "$999.990",
+      "descripcion": "Para marcas que desean delegar toda su comunicación digital y escalar su posicionamiento con una estrategia integral.",
+      "beneficios": [
+        "6 publicaciones semanales (formato mixto + lanzamientos y cápsulas de posicionamiento)",
+        "10 historias semanales (con estrategia de comunidad, remarketing, educación, emocional, conversión)",
+        "4 reels mensuales (grabados, editados profesionalmente, subtitulados y diseñados)",
+        "Highlights premium + revisión completa de identidad visual digital",
+        "Branding completo (o rediseño completo si se requiere)",
+        "Estudio de mercado completo (competencia directa + indirecta, tono, diferenciación)",
+        "Gestión total de redes sociales (contenido, comunidad, interacción, inbox y comentarios clave)",
+        "Hasta 3 sesiones audiovisuales mensuales (full producción: guión, grabación, edición, dirección visual)",
+        "Meta Ads: campaña mensual con seguimiento intensivo (pauta aparte desde $100.000)",
+        "3 reuniones mensuales (planificación, seguimiento y retroalimentación estratégica)",
+        "Informe mensual detallado (evolución, nuevas oportunidades, propuesta de mejora)",
+        "Asesoría estratégica constante (acompañamiento en decisiones, comunicación, contenido y campañas)",
+        "Soporte prioritario vía WhatsApp (respuestas inmediatas, canal exclusivo)"
+      ],
+      "imagen": "",
+      "color": "gold"
     }
+    
+    
+    
+
   ]
   
