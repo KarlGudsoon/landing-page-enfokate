@@ -149,6 +149,10 @@ header {
     height: auto;
 }
 
+.logo {
+    font: 900 2rem Lalezar, sans-serif;
+}
+
 header .hero {
     max-width: 900px;
 }
@@ -564,7 +568,6 @@ header .sociales img {
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
-    justify-content:flex-end;
     font: 400 1rem Readex Pro, sans-serif;
     color: var(--rosado-coral);
     border: 2px solid rgba(255, 255, 255, 0.5);
@@ -607,11 +610,6 @@ header .sociales img {
 .contenedor-cursos .carta-curso .carta-curso-texto p {
     text-align: start;
     margin-top: 0.5rem;
-}
-
-.contenedor-cursos .carta-curso .carta-curso-texto span {
-    width: 100%;
-    text-align: start;
     margin-bottom: 0.5rem;
 }
 
@@ -629,6 +627,7 @@ header .sociales img {
     gap: 0.2rem;
     align-items: center;
     color: white;
+    width: fit-content;
 }
 
 .contenedor-detalles {
@@ -657,6 +656,18 @@ header .sociales img {
     margin-top: 1rem;
     max-width: 800px;
     margin-bottom: 1rem;
+}
+
+.detalle-curso {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    align-items: center;
+    justify-self: flex-end;
+}
+
+.detalle-curso span {
+    width: fit-content;
 }
 
 details {

@@ -54,17 +54,16 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--violeta-intenso);
+    background-color: #fa79e9;
     padding: 1rem;
     width: fit-content;
     gap: 0.5rem;
     border-radius: 1rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin-bottom: 1rem;
-    font: 400 1rem Fredoka, sans-serif;
-    color: var(--blanco);
+    font: 500 1rem Fredoka, sans-serif;
+    color: white;
 }
-
 
 #contenedor-curso h1  {
     font: 600 2rem Fredoka, sans-serif;
@@ -78,11 +77,6 @@ main {
     text-decoration: none;
     font: 600 1.2rem Fredoka, sans-serif;
     margin-bottom: 1rem;
-}
-
-#contenedor-curso span {
-    font: 400 1rem Fredoka, sans-serif;
-    color: var(--blanco);
 }
 
 #contenedor-curso::before {
