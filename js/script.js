@@ -95,3 +95,19 @@ botonPlanes.forEach((boton) => {
   });
 });
 
+  // Función para leer parámetros de la URL
+  function getParametroURL(nombre) {
+    const params = new URLSearchParams(window.location.search);
+    return params.get(nombre);
+  }
+
+  // Si la URL tiene ?id=mensaje_enviado, mostrar el mensaje
+  if (getParametroURL("id") === "mensaje_enviado") {
+    const mensaje = document.getElementById("mensaje-exito");
+    if (mensaje) {
+      mensaje.classList.add("animacion");
+      setTimeout(() => {
+        mensaje.classList.remove("animacion");
+      }, 3500);
+    }
+  }
