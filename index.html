@@ -2,35 +2,46 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Enfókate es una agencia de marketing integral especializada en comunicación visual, fotografía, contenido, branding y marketing. Potenciamos marcas con estrategia, creatividad y emoción.">
     <meta name="keywords" content="agencia de marketing, comunicación visual, fotografía, contenido, branding, marketing digital, redes sociales, asesoría personalizada">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
     <title>Enfókate - Agencia de Marketing</title>
     <link rel="icon" href="/assets/img/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="/css/global.css">
     
 
 </head>
+
 <body>
+    <div class="widget-contactar">
+        <a href="#contacto" class="boton-contactar">Contactar</a>
+    </div>
+    
     <nav>
-        <h1>ENFÓ<b>K</b>TE</h1>
+        <h1 class="logo">ENFÓ<b>K</b>TE</h1>
         <ul>
             <li><a href="/">Inicio</a></li>
             <li><a href="#services">Servicios</a></li>
             <li><a href="#planes">Planes</a></li>
             <li><a href="/nosotros.html">Sobre Nosotros</a></li>
-            <li><a class="boton-navegacion" href="#contact">Contactar</a></li>
+            <li><a class="boton-navegacion" href="#contacto">Contactar</a></li>
         </ul>
     </nav>
+    <div id="mensaje-exito">
+        ✅ Mensaje enviado. Nos pondremos en contacto contigo a la brevedad. ¡Gracias por confiar en nosotros!
+    </div>
     <header>
         <section class="hero">
-            <h1 class="logo">ENFÓ<b>K</b>TE</h1>
+            
+            <img class="img-logo" src="/assets/img/logo.jpg" alt="">
             <h1>Potenciamos marcas, proyectos y momentos con <b style="color: var(--celeste-agua);">estrategia</b>, <b>creatividad</b> y <b style="color: rgb(238, 205, 18);">emoción.</b></h1>
             <p>
                 Somos una agencia integral especializada en comunicación visual, fotografía, contenido, branding y
                 marketing. Si buscas un equipo que te entienda, te escuche y te acompañe, llegaste al lugar indicado.
             </p>
-            <button>Contactar</button>
+            <button><a href="#contacto" style="color:white;">Contactar</a></button>
             <div class="sociales">
                 <a href=""><img src="assets/icons/fa6-brands--instagram.svg" alt=""></a>
                 <a href=""><img src="/assets/icons/ic--baseline-facebook.svg" alt=""></a>
@@ -38,7 +49,9 @@
             </div>
         </section class="hero">
     </header>
+    
     <main>
+        
         <section class="contenedor-servicios">
             <h1>Nuestros Servicios</h1>
             <p>
@@ -128,13 +141,14 @@
             </div>
         </section>
         <section class="contenedor-planes" id="planes">
-            <h1>NUESTROS PLANES DE MARKETING</h1>
+            <h1>NUESTROS PLANES</h1>
             <p>Planes pensados para quienes quieren profesionalizar su comunicación sin complicarse. Ya sea que
                 estés comenzando o que necesites escalar tu marca, tenemos un plan para ti. Nuestros paquetes
                 mensuales combinan estrategia, contenido, diseño y acompañamiento.</p>
             <div class="contenedor-botones-plan">
                 <button class="boton-plan" data-contenedor="marketing">Planes Servicios de Marketing</button>
                 <button class="boton-plan" data-contenedor="asesorias">Planes de Asesorías</button>
+                <button class="boton-plan" data-contenedor="fotografia">Planes fotografías</button>
             </div>
             <div class="contenedor-cartas-planes active" id="marketing">
                 <div class="cartas-plan" style="--backgroundColor: green;">
@@ -235,6 +249,81 @@
                     <a href="/curso.html?id=asesoria2&sesion=AsesoriaSeguimiento">Ver más</a>
                 </div>
             </div>
+            <div class="contenedor-cartas-planes" id="fotografia">
+                <div class="cartas-plan" style="--backgroundColor: var(--azul-electrico);">
+                    <span>Único</span>
+                    <h1>PLAN MINI - 1 hora/90min</h1>
+                    <span>$160.000</span>
+                    <p>Ideal para matrimonios civiles, bautizos, pedidas de mano, sesiones con tu mascota, sesiones
+                        individuales o en pareja u otras celebraciones íntimas.</p>
+                    <ul>
+                        <li><img src="/assets/icons/lets-icons--check-fill.svg">1 hora de cobertura fotográfica</li>
+                        <li><img src="/assets/icons/lets-icons--check-fill.svg">100 fotos capturadas y editadas</li>
+                        <li><img src="/assets/icons/lets-icons--check-fill.svg">Respaldo online de sus fotografías por 6 mese</li>
+                    </ul>
+                    <a href="/curso.html?id=asesoria1&sesion=AsesoriaEstrategica">Ver más</a>
+                </div>
+                <div class="cartas-plan" style="--backgroundColor: var(--azul-electrico);">
+                    <span>Único</span>
+                    <h1>PLAN CLÁSICO – 2 horas</h1>
+                    <span>$260.000</span>
+                    <p>Perfecto para celebraciones familiares, aniversarios o eventos sociales de mediana duración.</p>
+                    <ul>
+                        <li><img src="/assets/icons/lets-icons--check-fill.svg">2 horas de cobertura fotográfica</li>
+                        <li><img src="/assets/icons/lets-icons--check-fill.svg">200 fotos capturadas y editadas</li>
+                        <li><img src="/assets/icons/lets-icons--check-fill.svg">Respaldo online de sus fotografías por 6 meses</li>
+                    </ul>
+                    <a href="/curso.html?id=asesoria2&sesion=AsesoriaSeguimiento">Ver más</a>
+                </div>
+                <div class="cartas-plan" style="--backgroundColor: var(--azul-electrico);">
+                    <span>Único</span>
+                    <h1>PLAN FULL – 3 a 4 horas</h1>
+                    <span>$420.000</span>
+                    <p>Especial para bodas civiles o eventos prolongados como baby showers, aniversarios importantes, etc.</p>
+                    <ul>
+                        <li><img src="/assets/icons/lets-icons--check-fill.svg">3 a 4 horas de cobertura continua</li>
+                        <li><img src="/assets/icons/lets-icons--check-fill.svg">300 fotos capturadas y editadas</li>
+                        <li><img src="/assets/icons/lets-icons--check-fill.svg">Respaldo online de sus fotografías por 1 año</li>
+                    </ul>
+                    <a href="/curso.html?id=asesoria2&sesion=AsesoriaSeguimiento">Ver más</a>
+                </div>
+                <div class="cartas-plan" style="--backgroundColor: var(--azul-electrico);">
+                    <span>Único</span>
+                    <h1>PLAN BODA COMPLETA – 6 horas</h1>
+                    <span>$520.000</span>
+                    <p>Para quienes desean documentar todos los momentos clave de una boda tradicional.</p>
+                    <ul>
+                        <li><img src="/assets/icons/lets-icons--check-fill.svg">Cobertura: preparación, llegada, ceremonia, sesión de pareja, recepción, brindis, vals</li>
+                        <li><img src="/assets/icons/lets-icons--check-fill.svg">450 fotos capturadas y editadas</li>
+                        <li><img src="/assets/icons/lets-icons--check-fill.svg">Incluye 90 fotografías impresas en formato 13x18 cms</li>
+                    </ul>
+                    <a href="/curso.html?id=asesoria2&sesion=AsesoriaSeguimiento">Ver más</a>
+                </div>
+                <div class="cartas-plan" style="--backgroundColor: var(--azul-electrico);">
+                    <span>Único</span>
+                    <h1>PLAN BODA PREMIUM – 8 horas</h1>
+                    <span>$520.000</span>
+                    <p>Pensado para bodas grandes que requieren cobertura extensa y detallada.</p>
+                    <ul>
+                        <li><img src="/assets/icons/lets-icons--check-fill.svg">Cobertura completa: getting ready, ceremonia, sesión pareja, cóctel, cena, fiesta, baile, invitados, detalles decorativos</li>
+                        <li><img src="/assets/icons/lets-icons--check-fill.svg">600 fotos capturadas y editadas</li>
+                        <li><img src="/assets/icons/lets-icons--check-fill.svg">Incluye 100 fotos impresas en formato 13x18 cm + albúm de fotos</li>
+                    </ul>
+                    <a href="/curso.html?id=asesoria2&sesion=AsesoriaSeguimiento">Ver más</a>
+                </div>
+                <div class="cartas-plan" style="--backgroundColor: var(--azul-electrico);">
+                    <span>Único</span>
+                    <h1>PLAN BODA EXCLUSIVO – 10 horas</h1>
+                    <span>$1.000.000</span>
+                    <p>Nuestro plan más completo para bodas inolvidables con cobertura desde el primer hasta el último momento.</p>
+                    <ul>
+                        <li><img src="/assets/icons/lets-icons--check-fill.svg">Cobertura total: maquillaje, vestuario, detalles, ceremonia, banquete, fiesta, sorpresas y cierre del evento</li>
+                        <li><img src="/assets/icons/lets-icons--check-fill.svg">1.000 fotos capturadas y editadas</li>
+                        <li><img src="/assets/icons/lets-icons--check-fill.svg">Incluye álbum de fotos formato tradicional 20x30</li>
+                    </ul>
+                    <a href="/curso.html?id=asesoria2&sesion=AsesoriaSeguimiento">Ver más</a>
+                </div>
+            </div>
 
             <div class="plan-personalizado">
                 <p>¿No encuentras lo que necesitas? Armamos tu plan a medida.</p>
@@ -242,7 +331,7 @@
             </div>
             
         </section >
-        <section class="contenedor-servicios">
+        <section class="contenedor-servicios br">
             <h1>Nuestros Cursos y Mentorías</h1>
             <p>
                 Una propuesta integral para construir, mostrar y hacer crecer tu marca. 
@@ -339,8 +428,8 @@
             
         </section>
             
-        <section class="contenedor-servicios">
-            <h1>Nuestros Cursos y Mentorías</h1>
+        <section class="contenedor-servicios" style="background-color: transparent;">
+            <h1>Nuestro catálogo de servicios individuales</h1>
             <p>
                 Una propuesta integral para construir, mostrar y hacer crecer tu marca. 
                 Ofrecemos servicios creativos y estratégicos que se adaptan a las necesidades de tu marca, negocio, empresa, proyecto o evento:
@@ -348,52 +437,121 @@
             <div class="servicios carousel-wrapper">
                 <button class="scroll-btn prev" style="left: 1rem;">«</button>
                 <div class="inner">
-                    <div class="carta-servicios">
-                        <h1>CURSO EN VIVO: “GESTIONÁ TUS REDES COMO UNA PRO”</h1>
-                    </div>
-                    <div class="carta-servicios">
-                        <h1>CURSO EN VIVO: “BRANDING Y DISEÑO PARA TU MARCA EN REDES”</h1>
-                    </div>
-                    <div class="carta-servicios">
-                        <h1>CURSO EN VIVO: “HABILIDADES BLANDAS PARA EL ÉXITO PROFESIONAL”</h1>
-                    </div>
-                    <div class="carta-servicios">
-                        <h1>CURSO EN VIVO: “MARKETING Y CREACIÓN DE CONTENIDO QUE VENDE”</h1>
-                    </div>
-                    <div class="carta-servicios">
-                        <h1>MENTORÍA 1:1 – “LIDERAZGO CONSCIENTE PARA NEGOCIOS REALES”</h1>
-                    </div>
-                    <div class="carta-servicios"></div>
-                    <div class="carta-servicios"></div>
-                    <div class="carta-servicios"></div>
-                    <div class="carta-servicios"></div>
-                    <div class="carta-servicios"></div>
-                    <div class="carta-servicios"></div>
+                    <a href="/servicio.html?id=servicio1&servicio=Asesoria" draggable="false">
+                        <div class="carta-servicios">
+                            <img src="/assets/img/adult-beautiful-caucasian-914931-768x432.jpg">
+                            <h1>ASESORÍAS Y SESIONES PERSONALIZADAS</h1>
+                        </div>
+                    </a>
+                    <a href="/servicio.html?id=servicio2&servicio=Audiovisual" draggable="false">
+                        <div class="carta-servicios">
+                            <img src="/assets/img/adult-beautiful-caucasian-914931-768x432.jpg">
+                            <h1>SESIONES AUDIOVISUALES</h1>
+                        </div>
+                    </a>
+                    <a href="/servicio.html?id=servicio3&servicio=EstudioMercado" draggable="false">
+                        <div class="carta-servicios">
+                            <img src="/assets/img/adult-beautiful-caucasian-914931-768x432.jpg">
+                            <h1>ESTUDIO DE MERCADO</h1>
+                        </div>
+                    </a>
+                    <a href="/servicio.html?id=servicio4&servicio=GestionRedesSociales" draggable="false">
+                        <div class="carta-servicios">
+                            <img src="/assets/img/adult-beautiful-caucasian-914931-768x432.jpg">
+                            <h1>GESTIÓN DE REDES SOCIALES (servicios por separado)</h1>
+                        </div>
+                    </a>
+                    <a href="/servicio.html?id=servicio5&servicio=MetaADS" draggable="false">
+                        <div class="carta-servicios">
+                            <img src="/assets/img/adult-beautiful-caucasian-914931-768x432.jpg">
+                            <h1>META ADS</h1>
+                        </div>
+                    </a>
+                    <a href="/servicio.html?id=servicio6&servicio=InformeAnalisis" draggable="false">
+                        <div class="carta-servicios">
+                            <img src="/assets/img/adult-beautiful-caucasian-914931-768x432.jpg">
+                            <h1>INFORMES Y ANÁLISIS</h1>
+                        </div>
+                    </a>
                 </div>
                 <button class="scroll-btn next" style="right: 1rem;">»</button>
             </div>
         </section>
-        <section class="contenedor-detalles">
-            <h1>Nuestros Cursos y Mentorías</h1>
-            <p>
-                Una propuesta integral para construir, mostrar y hacer crecer tu marca. 
-                Ofrecemos servicios creativos y estratégicos que se adaptan a las necesidades de tu marca, negocio, empresa, proyecto o evento:
-            </p>
-            <details>
-                <summary>CURSO EN VIVO: “GESTIONÁ TUS REDES COMO UNA PRO”</summary>
+        <section class="contenedor-portafolio">
+            <div class="texto-portafolio">
+                <h1>Nuestro Trabajo</h1>
+                <span>Esto es lo que hacemos. Y cómo lo hacemos.</span>
                 <p>
-                    Nuestros planes son mensuales y se adaptan a tus necesidades. Puedes elegir el que mejor se ajuste a tu marca y objetivos.
-                    Cada plan incluye una combinación de servicios estratégicos, creativos y de gestión para potenciar tu presencia digital.
+                    Cada proyecto que ves acá es el resultado de estrategia, creatividad y colaboración real con nuestros
+                    clientes. Desde campañas digitales y fotografía profesional, hasta branding y contenido visual para
+                    redes: este es un resumen concreto de lo que entregamos.
                 </p>
-            </details>
+                <p>Porque más que estética, buscamos impacto, coherencia y resultados.</p>
+            </div>
+            <a href="/portafolio.html">
+                <div class="portafolio">
+                    <img src="/assets/img/adult-beautiful-caucasian-914931-768x432.jpg" alt="">
+                    <img src="/assets/img/adult-beautiful-caucasian-914931-768x432.jpg" alt="">
+                    <img src="/assets/img/adult-beautiful-caucasian-914931-768x432.jpg" alt="">
+                    
+                </div>
+            </a>
+            
+        </section>
+        <section id="contacto">
+            <div class="texto-contacto">
+                <h1>¿Quieres trabajar con nosotros o saber más sobre algún servicio?</h1>
+                <p>
+                    Completa el formulario o escríbenos directamente por WhatsApp. Podemos agendar una reunión,
+                    enviarte una propuesta a medida o ayudarte a elegir el servicio ideal según tu objetivo.
+                </p>
+                <p>En enfóKte nos importa que te sientas acompañado/a desde el primer contacto.</p>
+                <a href="https://wa.me/56912345678?text=Hola%2C%20quiero%20más%20información%20sobre%20sus%20servicios" target="_blank"><img src="/assets/icons/ic--baseline-whatsapp.svg" alt="">WhatsApp</a>
+            </div>
+            <form class="formulario-contacto" action="/public/contacto-general.php" method="post" id="formulario-contacto">
+                <h2>CONTÁCTANOS</h2>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
 
         </section>
 
     </main>
     <footer>
+        <img src="/assets/img/logo.jpg" alt="">
+        <p style="max-width: 500px; text-align: center;">
+            EnfóKte - Agencia de Marketing Integral. 
+        </p>
+        <p style="max-width: 500px; text-align: center;">
+            Potenciamos marcas con estrategia, 
+            creatividad y emoción. Contáctanos para asesorías, gestión de redes, branding y más.
+        </p>
+        <div class="redes-footer">
+            <a href=""><img src="/assets/icons/fa6-brands--instagram.svg" alt=""></a>
+            <a href=""><img src="/assets/icons/ic--baseline-facebook.svg" alt=""></a>
+            <a href=""><img src="/assets/icons/ic--baseline-whatsapp.svg" alt=""></a>
+        </div>
+        
 
+        
+        
     </footer>
+    <div class="copyright">
+        <p>© <span id="año-actual"></span> EnfóKte. Todos los derechos reservados. </p>
+    </div>
 </body>
+
 </html>
 
 <script src="/js/script.js"></script>

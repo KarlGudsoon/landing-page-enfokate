@@ -106,10 +106,29 @@
       ],
       "imagen": "",
       "color": "gold"
+    },
+    {
+      "id": "plan5",
+      "nombre": "Plan Escala Total",
+      "precio": "$999.990",
+      "descripcion": "Para marcas que desean delegar toda su comunicación digital y escalar su posicionamiento con una estrategia integral.",
+      "beneficios": [
+        "6 publicaciones semanales (formato mixto + lanzamientos y cápsulas de posicionamiento)",
+        "10 historias semanales (con estrategia de comunidad, remarketing, educación, emocional, conversión)",
+        "4 reels mensuales (grabados, editados profesionalmente, subtitulados y diseñados)",
+        "Highlights premium + revisión completa de identidad visual digital",
+        "Branding completo (o rediseño completo si se requiere)",
+        "Estudio de mercado completo (competencia directa + indirecta, tono, diferenciación)",
+        "Gestión total de redes sociales (contenido, comunidad, interacción, inbox y comentarios clave)",
+        "Hasta 3 sesiones audiovisuales mensuales (full producción: guión, grabación, edición, dirección visual)",
+        "Meta Ads: campaña mensual con seguimiento intensivo (pauta aparte desde $100.000)",
+        "3 reuniones mensuales (planificación, seguimiento y retroalimentación estratégica)",
+        "Informe mensual detallado (evolución, nuevas oportunidades, propuesta de mejora)",
+        "Asesoría estratégica constante (acompañamiento en decisiones, comunicación, contenido y campañas)",
+        "Soporte prioritario vía WhatsApp (respuestas inmediatas, canal exclusivo)"
+      ],
+      "imagen": "",
+      "color": "gold"
     }
-    
-    
-    
-
   ]
   

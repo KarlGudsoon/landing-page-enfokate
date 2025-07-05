@@ -260,4 +260,8 @@ details ul li::before {
     #contenedor-curso {
         padding: 1rem;
     }
+
+    .detalles-curso {
+        justify-content: center;
+    }
 }

@@ -14,6 +14,25 @@ main {
     padding: 1rem;
 }
 
+.contenedor-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    max-width: 550px;
+    position: relative;
+}
+
+.disclaimer {
+    font: 400 0.8rem Fredoka, sans-serif;
+    color: var(--blanco);
+    text-align: center;
+    background: rgba(112, 8, 203, 0.8);
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+}
+
 #contenedor-plan {
     padding: 2rem;
     background: rgba(112, 8, 203, 0.8);
@@ -28,6 +47,12 @@ main {
     border-radius: 2rem;
     position: relative;
     overflow: hidden;
+}
+
+#contenedor-plan h1 {
+    font: 600 2rem Lalezar, sans-serif;
+    line-height: 1;
+    margin: 0;
 }
 
 #contenedor-plan span {
@@ -60,6 +85,27 @@ ul {
     padding: 0;
     color: var(--blanco);
     font: 400 1rem Fredoka, sans-serif;
+}
+
+.precio-curso {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fa79e9;
+    padding: 1rem;
+    width: fit-content;
+    gap: 0.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 1rem;
+    font: 500 1rem Fredoka, sans-serif;
+    color: white;
+}
+
+#contenedor-plan ul h1 {
+    font: 600 1.5rem Fredoka, sans-serif;
+    color: var(--blanco);
+    margin-bottom: 1rem;
 }
 
 main ul li {
