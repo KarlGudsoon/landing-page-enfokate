@@ -1,0 +1,189 @@
+[
+  {
+    "id": "servicio1",
+    "nombre": "ASESORÍAS Y SESIONES PERSONALIZADAS",
+    "descripcion": "",
+    "beneficios": [
+      {
+        "titulo": "Asesoría Estratégica 1:1 (una sesión de 2 horas)",
+        "detalles": [
+          "Análisis completo de tu marca, comunicación, posicionamiento y objetivos.",
+          "Revisión de contenido, tono de voz, diferenciación.",
+          "Diagnóstico + plan de acción personalizado."
+        ],
+        "valor": "$75.000"
+      },
+      {
+        "titulo": "Sesiones de Seguimiento 1:1 (1 hora)",
+        "detalles": [
+          "Revisión de avances, ajuste de estrategias, resolución de dudas o nuevos enfoques."
+        ],
+        "valor": "$45.000"
+      }
+    ],
+    "imagen": "",
+    "color": "green"
+  },
+  {
+    "id": "servicio2",
+    "nombre": "SESIONES AUDIOVISUALES",
+    "descripcion": "",
+    "beneficios": [
+      {
+        "titulo": "Fotografía profesional de contenido (1 hora)",
+        "detalles": [
+          "Ideal para reels, contenido de feed, highlights o sitio web.",
+          "Entrega: hasta 30 fotos editadas en alta resolución."
+        ],
+        "valor": "$190.000"
+      },
+      {
+        "titulo": "Producción audiovisual completa (video + fotos, 2 horas)",
+        "detalles": [
+          "Incluye: dirección creativa, guión, grabación, edición de reels o mini cápsulas.",
+          "Entrega: hasta 3 reels editados + 40 fotos editadas."
+        ],
+        "valor": "$320.000"
+      },
+      {
+        "titulo": "Grabación de video (1 hora)",
+        "detalles": [
+          "Grabación de contenido con edición para reels, historias o TikTok."
+        ],
+        "valor": "$120.000"
+      },
+      {
+        "titulo": "Sesiones extendidas (3 horas)",
+        "detalles": [
+          "Entrega: hasta 5 reels + 30 fotos editadas aprox."
+        ],
+        "valor": "$440.000"
+      }
+    ],
+    "imagen": "",
+    "color": "green"
+  },
+  {
+    "id": "servicio3",
+    "nombre": "ESTUDIO DE MERCADO",
+    "descripcion": "",
+    "beneficios": [
+      {
+        "titulo": "Análisis de competencia + benchmarking digital",
+        "detalles": [
+          "Evaluación de hasta 5 competidores + oportunidades de posicionamiento.",
+          "Entrega: Informe PDF con recomendaciones estratégicas."
+        ],
+        "valor": "$100.000"
+      },
+      {
+        "titulo": "Estudio de mercado completo",
+        "detalles": [
+          "Análisis de tono, diferenciación, categorías de contenido, benchmarking ampliado.",
+          "Entrega: Documento estratégico + resumen visual de insights."
+        ],
+        "valor": "$160.000"
+      }
+    ],
+    "imagen": "",
+    "color": "green"
+  },
+  {
+    "id": "servicio4",
+    "nombre": "GESTIÓN DE REDES SOCIALES",
+    "descripcion": "",
+    "beneficios": [
+      {
+        "titulo": "Calendario de contenido (1 mes)",
+        "detalles": [
+          "Plan de 12 publicaciones divididas en reels, carruseles y post estáticos.",
+          "Entrega: archivo PDF o Notion editable."
+        ],
+        "valor": "$120.000"
+      },
+      {
+        "titulo": "Copywriting + estrategia de contenido",
+        "detalles": [
+          "Redacción de textos + enfoque emocional/comercial por pieza.",
+          "Entrega: hasta 3 reels editados + 40 fotos editadas."
+        ],
+        "valor": "$15.000 por pack de 5 piezas"
+      },
+      {
+        "titulo": "Programación y subida de contenido (por mes)",
+        "detalles": [
+          "Incluye monitoreo básico de interacciones."
+        ],
+        "valor": "$90.000"
+      },
+      {
+        "titulo": "Diseño gráfico para redes (historias, carruseles y post)",
+        "detalles": [
+          "Creación de piezas gráficas personalizadas según branding y objetivos.",
+          "Entrega: JPG optimizado para redes + editable en Canva o PDF"
+        ],
+        "valor": "$60.000 por pack de 6 piezas"
+      },
+      {
+        "titulo": "Edición de reels individuales",
+        "detalles": [
+          "Edición profesional con subtítulos, música y portada animada.",
+          "Entrega: archivo en MP4 HD para Instagram/TikTok."
+        ],
+        "valor": "$40.000"
+      },
+      {
+        "titulo": "Creación de reels desde cero",
+        "detalles": [
+          "Idea + guión + edición con subtítulos y portada. Cliente entrega material o se graba en sesión contratada.",
+          "Entrega: reel finalizado en MP4 + guión base."
+        ],
+        "valor": "$65.000"
+      }
+    ],
+    "imagen": "",
+    "color": "green"
+  },
+  {
+    "id": "servicio5",
+    "nombre": "META ADS",
+    "descripcion": "",
+    "beneficios": [
+      {
+        "titulo": "Campaña Meta Ads (creación y gestión)",
+        "detalles": [
+          "1 conjunto de anuncios, hasta 4 piezas visuales, informe mensual."
+        ],
+        "valor": "$120.000"
+      }
+    ],
+    "imagen": "",
+    "color": "green"
+  },
+  {
+    "id": "servicio6",
+    "nombre": "INFORMES Y ANÁLISIS",
+    "descripcion": "",
+    "beneficios": [
+      {
+        "titulo": "Informe mensual de redes sociales",
+        "detalles": [
+          "Análisis de rendimiento + acciones recomendadas.",
+          "Entrega: PDF con métricas y visuales comparativos."
+        ],
+        "valor": "$45.000"
+      },
+      {
+        "titulo": "Auditoría completa de Instagram o TikTok",
+        "detalles": [
+          "Evaluación visual, estratégica y de contenido con plan de mejora.",
+          "Entrega: Informe completo en PDF con ejemplos de mejora."
+        ],
+        "valor": "$80.000"
+      }
+    ],
+    "imagen": "",
+    "color": "green"
+  }
+]
+  

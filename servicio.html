@@ -33,9 +33,12 @@
     </nav>
              
     <main>
-        
-        <div id="contenedor-plan">
-            <!-- Aquí se insertará el contenido -->
+        <div class="contenedor-plan"> 
+            <div id="contenedor-plan">
+                <!-- Aquí se insertará el contenido -->
+            </div>
+            <div class="disclaimer">**Todos los servicios incluyen soporte por WhatsApp durante el proceso.**Valores referenciales
+                vigentes para 2025. Se puede generar cotización personalizada según necesidades combinadas.</div>
         </div>
         <form class="formulario" action="/public/contacto-plan.php" method="post" id="formulario-contacto">
                 <h2>CONTÁCTANOS</h2>
@@ -51,14 +54,15 @@
                 <label for="mensaje">Mensaje:</label>
                 <textarea id="mensaje" name="mensaje" rows="4"></textarea>
 
-                <label for="plan">
-                    Plan de Interés:
-                    <select id="plan" name="plan" required>
-                        <option value="Plan Base">Plan Base</option>
-                        <option value="Plan Activo">Plan Activo</option>
-                        <option value="Plan Expansión">Plan Expansión</option>
-                        <option value="Plan Visibilidad">Plan Visibilidad</option>
-                        <option value="Plan Total">Plan Total</option>
+                <label for="servicio">
+                    Servicio individual:
+                    <select id="servicio" name="servicio" required>
+                        <option value="Asesoria">Asesoria</option>
+                        <option value="Audiovisual">Sesiones Audiovisuales</option>
+                        <option value="EstudioMercado">Estudio Mercado</option>
+                        <option value="GestionRedesSociales">Gestión de Redes Sociales</option>
+                        <option value="MetaADS">META ADS</option>
+                        <option value="InformeAnalisis">Informe y Análisis</option>
                     </select>
                 </label>
                 
@@ -67,7 +71,7 @@
     </main>
   
 
-  <script src="/js/detalle.js"></script>
+  <script src="/js/servicio.js"></script>
 
   <script>
 
