@@ -21,8 +21,7 @@
         "valor": "$45.000"
       }
     ],
-    "imagen": "",
-    "color": "green"
+    "imagen": ""
   },
   {
     "id": "servicio2",
@@ -60,8 +59,7 @@
         "valor": "$440.000"
       }
     ],
-    "imagen": "",
-    "color": "green"
+    "imagen": ""
   },
   {
     "id": "servicio3",
@@ -85,8 +83,7 @@
         "valor": "$160.000"
       }
     ],
-    "imagen": "",
-    "color": "green"
+    "imagen": ""
   },
   {
     "id": "servicio4",
@@ -141,8 +138,7 @@
         "valor": "$65.000"
       }
     ],
-    "imagen": "",
-    "color": "green"
+    "imagen": ""
   },
   {
     "id": "servicio5",
@@ -157,8 +153,7 @@
         "valor": "$120.000"
       }
     ],
-    "imagen": "",
-    "color": "green"
+    "imagen": ""
   },
   {
     "id": "servicio6",
@@ -182,8 +177,7 @@
         "valor": "$80.000"
       }
     ],
-    "imagen": "",
-    "color": "green"
+    "imagen": ""
   },
   {
     "id": "servicio7",
@@ -259,8 +253,7 @@
         "valor": "$20.000"
       }
     ],
-    "imagen": "",
-    "color": ""
+    "imagen": ""
   }
 ]
   
