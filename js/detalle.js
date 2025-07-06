@@ -18,8 +18,16 @@ try {
     return;
     }
 
+    if (!plan.imagen) {
+        const img = document.querySelector(".imagen-plan");
+        if (img) {
+            img.remove();
+        }
+    }
+
     const contenedor = document.getElementById("contenedor-plan");
     contenedor.innerHTML = `
+    <img src="${plan.imagen}" class="imagen-plan"/>
     <p><strong id="precio">${plan.precio}</strong>/mes</p>
     <h1>${plan.nombre}</h1>
     <p>${plan.descripcion}</p>

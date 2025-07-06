@@ -15,7 +15,7 @@
         "Soporte continuo vía WhatsApp de lunes a viernes (horario hábil)"
 
       ],
-      "imagen": "",
+      "imagen": "/assets/icons/nimbus--marketing.svg",
       "color": "green"
     },
     {
@@ -36,7 +36,7 @@
         "Asesoría personalizada continua",
         "Soporte WhatsApp activo (respuestas dentro del mismo día)"
       ],
-      "imagen": "",
+      "imagen": "/assets/icons/nimbus--marketing.svg",
       "color": "blue"
     },
     {
@@ -58,7 +58,7 @@
         "Informe mensual detallado (KPIs, contenido con mejor rendimiento y ajustes sugeridos)",
         "Soporte WhatsApp activo + canal prioritario para dudas urgentes"
       ],
-      "imagen": "",
+      "imagen": "/assets/icons/nimbus--marketing.svg",
       "color": "purple"
     },
     {
@@ -81,7 +81,7 @@
         "Soporte extendido por WhatsApp (respuestas fuera de horario hábil en caso de contingencias)",
         "Asesoría estratégica continua (revisión de decisiones, branding, enfoque de negocio)"
       ],
-      "imagen": "",
+      "imagen": "/assets/icons/nimbus--marketing.svg",
       "color": "red"
     },
     {
@@ -104,7 +104,7 @@
         "Asesoría estratégica constante (acompañamiento en decisiones, comunicación, contenido y campañas)",
         "Soporte prioritario vía WhatsApp (respuestas inmediatas, canal exclusivo)"
       ],
-      "imagen": "",
+      "imagen": "/assets/icons/nimbus--marketing.svg",
       "color": "gold"
     },
     {
@@ -127,8 +127,90 @@
         "Asesoría estratégica constante (acompañamiento en decisiones, comunicación, contenido y campañas)",
         "Soporte prioritario vía WhatsApp (respuestas inmediatas, canal exclusivo)"
       ],
-      "imagen": "",
+      "imagen": "/assets/icons/nimbus--marketing.svg",
       "color": "gold"
+    },
+    {
+      "id": "foto1",
+      "nombre": "PLAN MINI - 1 hora/90min",
+      "precio": "$160.000",
+      "descripcion": "Ideal para matrimonios civiles, bautizos, pedidas de mano, sesiones con tu mascota, sesiones individuales o en pareja u otras celebraciones íntimas.",
+      "beneficios": [
+        "1 hora de cobertura fotográfica",
+        "100 fotos capturadas y editadas",
+        "Respaldo online de sus fotografías por 6 meses"
+      ],
+      "imagen": "/assets/icons/ion--camera.svg",
+      "color": "rgba(0, 0, 0, 0.35)"
+    },
+    {
+      "id": "foto2",
+      "nombre": "PLAN CLÁSICO – 2 horas",
+      "precio": "$260.000",
+      "descripcion": "Perfecto para celebraciones familiares, aniversarios o eventos sociales de mediana duración.",
+      "beneficios": [
+        "2 horas de cobertura fotográfica",
+        "200 fotos capturadas y editadas",
+        "Respaldo online de sus fotografías por 6 meses"
+      ],
+      "imagen": "/assets/icons/ion--camera.svg",
+      "color": "rgba(0, 0, 0, 0.35)"
+    },
+    {
+      "id": "foto3",
+      "nombre": "PLAN FULL – 3 a 4 horas",
+      "precio": "$420.000",
+      "descripcion": "Especial para bodas civiles o eventos prolongados como baby showers, aniversarios importantes, etc.",
+      "beneficios": [
+        "3 a 4 horas de cobertura continua",
+        "300 fotos capturadas y editadas",
+        "Respaldo online de sus fotografías por 1 año"
+      ],
+      "imagen": "/assets/icons/ion--camera.svg",
+      "color": "rgba(0, 0, 0, 0.35)"
+    },
+    {
+      "id": "foto4",
+      "nombre": "PLAN BODA COMPLETA – 6 horas",
+      "precio": "$520.000",
+      "descripcion": "Para quienes desean documentar todos los momentos clave de una boda tradicional.",
+      "beneficios": [
+        "Cobertura: preparación, llegada, ceremonia, sesión de pareja, recepción, brindis, vals",
+        "450 fotos capturadas y editadas",
+        "Respaldo online de sus fotografías por 1 año",
+        "Incluye 90 fotografías impresas en formato 13x18 cms"
+      ],
+      "imagen": "/assets/icons/ion--camera.svg",
+      "color": "rgba(0, 0, 0, 0.35)"
+    },
+    {
+      "id": "foto5",
+      "nombre": "PLAN BODA PREMIUM – 8 horas",
+      "precio": "$680.000",
+      "descripcion": "Pensado para bodas grandes que requieren cobertura extensa y detallada.",
+      "beneficios": [
+        "Cobertura completa: getting ready, ceremonia, sesión pareja, cóctel, cena, fiesta, baile, invitados, detalles decorativos",
+        "600 fotos capturadas y editadas",
+        "Respaldo online de sus fotografías por 1 año",
+        "Incluye 100 fotos impresas en formato 13x18 cm + albúm de fotos"
+      ],
+      "imagen": "/assets/icons/ion--camera.svg",
+      "color": "rgba(0, 0, 0, 0.35)"
+    },
+    {
+      "id": "foto6",
+      "nombre": "PLAN BODA EXCLUSIVO – 10 horas",
+      "precio": "$1.000.000",
+      "descripcion": "Nuestro plan más completo para bodas inolvidables con cobertura desde el primer hasta el último momento.",
+      "beneficios": [
+        "Cobertura total: maquillaje, vestuario, detalles, ceremonia, banquete, fiesta, sorpresas y cierre del evento",
+        "2 fotógrafos y 1 asistente",
+        "1.000 fotos capturadas y editadas",
+        "Adelanto de 100 fotos editadas dentro de los primeros 5 días hábiles posteriores al evento",
+        "Incluye álbum de fotos formato tradicional 20x30"
+      ],
+      "imagen": "/assets/icons/ion--camera.svg",
+      "color": "rgba(0, 0, 0, 0.35)"
     }
   ]
   

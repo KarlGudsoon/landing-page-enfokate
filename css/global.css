@@ -518,6 +518,7 @@ header .sociales img {
     gap: 1rem;
     justify-content: center;
     margin-top: 1rem;
+    flex-wrap: wrap;
 }
 
 .boton-plan {
@@ -525,8 +526,18 @@ header .sociales img {
     height: fit-content;
     font: 400 1rem Readex Pro, sans-serif;
     border-radius: 1rem;
-    padding: 1.5rem;
+    padding: 1rem;
     background-color: var(--violeta-intenso);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.boton-plan:hover {
+    background-color: var(--morado-lavanda);
+    cursor: pointer;
+}
+
+.boton-plan:active {
+    scale: 0.95;
 }
 
 .contenedor-cartas-planes {
@@ -695,8 +706,14 @@ header .sociales img {
     flex-wrap: wrap;
 }
 
-.plan-personalizado button {
+.plan-personalizado a {
+    color: var(--crema-claro);
+    text-decoration: none;
     background-color: var(--morado-lavanda);
+    font: 400 1rem Readex Pro, sans-serif;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
 }
 
 .plan-personalizado h1 {
@@ -1038,6 +1055,7 @@ footer img {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding-top: 4rem;
     background-color: #FF8AF0;
     color: rgba(0, 0, 0, 0.5);
@@ -1196,6 +1214,7 @@ footer img {
         border: 1px solid rgba(255, 255, 255, 0.5);
         bottom: 1rem;
         left: 50%;
+        display: block;
         transform: translateX(-50%);
         height: fit-content;
         background-color: var(--rosado-coral);
@@ -1207,5 +1226,10 @@ footer img {
 
     .widget-contactar a {
         color: white;
+    }
+
+    .contenedor-portafolio a {
+        width: 100%;
+        margin-bottom: 1rem;
     }
 }

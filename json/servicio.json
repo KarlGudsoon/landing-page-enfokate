@@ -184,6 +184,83 @@
     ],
     "imagen": "",
     "color": "green"
+  },
+  {
+    "id": "servicio7",
+    "nombre": "DISEÑO LOGO Y TARJETA DE PRESENTACIÓN",
+    "descripcion": "",
+    "beneficios": [
+      {
+        "titulo": "PACK ESCENCIAL",
+        "detalles": [
+          "3 propuestas basadas en tus referencias (vía WhatsApp).",
+          "Entrega de archivos originales en JPG, PNG, PDF.",
+          "Guía de uso básica: código de color, nombre de tipografía, versiones y aplicación",
+          "Archivos en alta calidad",
+          "Entrega digital"
+        ],
+        "valor": "$50.000"
+      },
+      {
+        "titulo": "PACK PROFESIONAL",
+        "detalles": [
+          "3 propuestas según tus referencias (vía WhatsApp).",
+          "Archivos en JPG, PNG, PDF, AI.",
+          "Guía básica con códigos, tipografía y ejemplos.",
+          "Logotipo sello de agua para tus fotos.",
+          "Animación del logotipo (MP4)",
+          "Diseño de tarjeta de presentación (1 cara)",
+          "Entrega en alta calidad"
+        ],
+        "valor": "$70.000"
+      },
+      {
+        "titulo": "PACK INTEGRAL",
+        "detalles": [
+          "3 propuestas según tus referencias (vía WhatsApp).",
+          "Archivos en JPG, PNG, PDF, AI.",
+          "Guía de uso visual con códigos, tipografía, versiones y ejemplos.",
+          "Logotipo sello de agua para tus fotos.",
+          "Animación del logotipo (MP4)",
+          "Diseño de tarjeta de presentación (1 cara)",
+          "Kit de 3 gráficas para Instagram",
+          "Pie de firma para tu e-mail",
+          "Entrega en alta calidad"
+        ],
+        "valor": "$90.000"
+      },
+      {
+        "titulo": "DISEÑO DE LOGOTIPO",
+        "detalles": [
+          "1 propuesta inicial basada en referencias que entregas",
+          "Revisión y ajustes sobre la opción elegida (1 ronda de corrección)",
+          "Entrega de archivos en alta calidad: JPG, PNG y PDF"
+        ],
+        "valor": "$30.000"
+      },
+      {
+        "titulo": "TARJETA DE PRESENTACIÓN - 1 CARA",
+        "detalles": [
+          "Diseño profesional personalizado",
+          "Alineación con tu logo y colores de marca",
+          "Preparación para impresión y formato digital",
+          "Archivo final en JPG y PDF"
+        ],
+        "valor": "$15.000"
+      },
+      {
+        "titulo": "TARJETA DE PRESENTACIÓN - 2 CARA",
+        "detalles": [
+          "Diseño profesional con información por ambos lados",
+          "Opcional: portada con logo + reverso con datos, QR, redes, etc.",
+          "Diseño alineado al branding de tu marca",
+          "Archivos para impresión (PDF) y JPG"
+        ],
+        "valor": "$20.000"
+      }
+    ],
+    "imagen": "",
+    "color": ""
   }
 ]
   
