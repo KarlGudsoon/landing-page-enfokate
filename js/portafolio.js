@@ -27,21 +27,21 @@ const cerrar = document.querySelector(".cerrar");
 contenedorPortafolio.addEventListener("click", (e) => {
   if (e.target.tagName === "IMG") {
     imagenGrande.src = e.target.src;
-    visor.style.display = "flex";
+    visor.classList.add("visible");
     document.body.style.overflow = "hidden"; // Evitar scroll al abrir el visor
   }
 });
 
 // Cerrar visor
 cerrar.addEventListener("click", () => {
-  visor.style.display = "none";
+  visor.classList.remove("visible");
   document.body.style.overflow = "auto";
 });
 
 // Cerrar haciendo clic fuera de la imagen
 visor.addEventListener("click", (e) => {
   if (e.target === visor) {
-    visor.style.display = "none";
+    visor.classList.remove("visible");
     document.body.style.overflow = "auto";
   }
 });

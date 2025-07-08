@@ -57,17 +57,25 @@
     }
 
     .visor {
-    display: none;
-    position: fixed;
-    z-index: 10000;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: transparent;
-    backdrop-filter: blur(15px);
-    justify-content: center;
-    align-items: center;
+        display: flex;
+        position: fixed;
+        z-index: 10000;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: transparent;
+        backdrop-filter: blur(15px);
+        justify-content: center;
+        align-items: center;
+        pointer-events: none;
+        opacity: 0;
+        transition: 0.3s ease;
+    }
+
+    .visor.visible {
+        pointer-events: all;
+        opacity: 1;
     }
 
     .visor img {
