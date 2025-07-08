@@ -197,6 +197,8 @@ select {
     color: var(--blanco);
     font: 400 1rem Fredoka, sans-serif;
     border: 2px solid transparent;
+    pointer-events: none;
+    filter: brightness(0.8);
     transition: border 0.3s ease, box-shadow 0.3s ease;
 }
 
