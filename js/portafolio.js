@@ -1,6 +1,6 @@
 const contenedorPortafolio = document.getElementById('contenedor-portafolio');
 
-for (let i = 3635; i <= 5000; i++) {
+for (let i = 4000; i >= 3600; i--) {
   const img = new Image();
   img.src = `/assets/img/portafolio/IMG_${i}.webp`;
   img.alt = `Imagen del portafolio ${i}`;
@@ -8,16 +8,17 @@ for (let i = 3635; i <= 5000; i++) {
 
   img.onload = () => {
     contenedorPortafolio.appendChild(img);
-    // Espera un momento y luego aplica la clase "visible"
     setTimeout(() => {
       img.classList.add('visible');
-    }, 50); // pequeño retardo para que la transición se active
+    }, 50);
   };
 
   img.onerror = () => {
-    console.warn(`Imagen no encontrada: IMG_${i}.webp`);
+    // No hace nada, simplemente ignora la imagen que no existe
+    console.warn(`Imagen IMG_${i}.webp no encontrada`);
   };
 }
+
 
 const visor = document.getElementById("visor");
 const imagenGrande = document.getElementById("imagen-grande");
